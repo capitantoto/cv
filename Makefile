@@ -1,5 +1,13 @@
-all:
-	pdflatex informe.tex
-	pdflatex informe.tex
+ENGLISH=english.tex
+SPANISH=main.tex
+
+spanish:
+	pdflatex $(SPANISH)
+
+english:
+	pdflatex $(ENGLISH)
+
+all: english spanish
+
 clean:
-	rm -f *.log *.out *.aux *.toc
+	rm -f *.pdf *.aux *.log *.out
