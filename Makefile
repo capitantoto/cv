@@ -1,5 +1,5 @@
 ENGLISH=english.tex
-SPANISH=main.tex
+SPANISH=spanish.tex
 
 spanish:
 	pdflatex $(SPANISH)
