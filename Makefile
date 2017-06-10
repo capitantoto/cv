@@ -1,13 +1,8 @@
-ENGLISH=english.tex
-SPANISH=spanish.tex
+all: english.pdf spanish.pdf
 
-spanish:
-	pdflatex $(SPANISH)
+%.pdf: %.tex
+	pdflatex $<
 
-english:
-	pdflatex $(ENGLISH)
-
-all: english spanish
 
 clean:
 	rm -f *.pdf *.aux *.log *.out
