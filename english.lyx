@@ -1,0 +1,1462 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /Users/gonzalo/Documents/cv/
+\textclass moderncv
+\begin_preamble
+
+
+% moderncv themes
+\moderncvtheme[green]{classic}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+% replace by the encoding you are using
+% Multi-column layout for languages and technical skills
+\usepackage{multicol}
+% adjust the page margins
+\usepackage{amsfonts}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% Hyperlinks
+%\usepackage{hyperref}								% to use hyperlinks
+%\definecolor{linkcolour}{rgb}{0,0.2,0.6}			% hyperlinks setup
+%\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+% personal data
+\name{Gonzalo}{Barrera Borla}
+\phone[mobile]{+54~(9~11)~4082~6338}                   % optional, remove / comment the line if not wanted
+\email{gonzalobb@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{github.com/capitantoto}                         % optional, remove / comment the line if not wanted
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+\end_preamble
+\options sans
+\use_default_options false
+\begin_modules
+multicol
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%-----       resume       ---------------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+makecvtitle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset VSpace -0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Selected Industry Experience
+\end_layout
+
+\begin_layout Entry
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+2021 – Current
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+
+\begin_layout Standard
+Engineer Manager, Data Science
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+
+\begin_layout Standard
+Jampp @ Affle Group
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+
+\begin_layout Standard
+Remote
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+
+\end_inset
+
+After becoming SME on our statistical learning systems, I moved 
+\emph on
+slightly
+\emph default
+ away from coding to technical management. Emphasis is set on sketching lines of research for continuous improvement of our bidding strategy from a theoretical standpoint, that small dedicated teams can then further on their own.
+\end_layout
+
+\begin_layout Entry
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+2019 – 2020
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+
+\begin_layout Standard
+Senior Data Scientist
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+
+\begin_layout Standard
+Jampp
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+
+\begin_layout Standard
+Buenos Aires, AR
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+
+\end_inset
+
+I researched, developed and monitored supervised models for classification tasks in the programmatic advertising market. Servicing predictions for 2M QPS, we developed sampling techniques to learn from extremely imbalanced (1000:1 or worse), massive (1T+ rows) datasets within exacting performance constraints.
+\end_layout
+
+\begin_layout Entry
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+2016 – 2019
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+
+\begin_layout Standard
+Expert Data Analysis Advisor
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+
+\begin_layout Standard
+Chief of the Ministerial Cabinet Office
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+
+\begin_layout Standard
+Buenos Aires, AR
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+
+\end_inset
+
+I worked for the 
+\emph on
+Dirección Nacional de Datos
+\emph default
+ in designing, developing and managing a BI platform to integrate data from the federal government's core management systems. I had both technical (data model & ETL pipelines' design) and product-oriented responsibilities, such as defining objectives with stakeholders. I contributed to 
+\begin_inset CommandInset href
+LatexCommand href
+name "\color{blue}{pydatajson}"
+target "https://code.iadb.org/repository/31/pydatajson"
+literal "true"
+
+\end_inset
+
+, a python library selected by the IADB's 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "\color{blue}{Code for Development}"
+target "https://code.iadb.org/repository/31/pydatajson"
+literal "true"
+
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+ FOSS program.
+\end_layout
+
+\begin_layout Entry
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+2013 – 2016
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+
+\begin_layout Standard
+Business Data Analyst
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+
+\begin_layout Standard
+Official Nascar Members' Club
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+
+\begin_layout Standard
+Buenos Aires, AR; Charlotte, NC, USA
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+
+\end_inset
+
+I mostly did assorted analysis and report automation for all company teams. I also helped Marketing with rigorous hypothesis' testing of their A/B tests, and Finance by running credit fraud detection models.
+\end_layout
+
+\begin_layout Section
+Selected Academic Experience
+\end_layout
+
+\begin_layout Entry
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+H2 2021
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+
+\begin_layout Standard
+External Professor
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+
+\begin_layout Standard
+Fac. de Ingeniería, Fac. de Cs. Exactas, UBA
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+
+\begin_layout Standard
+Argentina
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+
+\end_inset
+
+I taught 
+\begin_inset Quotes eld
+\end_inset
+
+Machine Learning in Graphs
+\begin_inset Quotes erd
+\end_inset
+
+ for the masters' degree on Data Mining program. We provided longtime R users with an in-depth first course on Python for graph data science. We recorded lectures for asynchronous watching and led synchronous classes with heavy emphasis on practice. All of the material is publicly available on 
+\begin_inset CommandInset href
+LatexCommand href
+name "\color{blue}{YouTube}"
+target "https://youtube.com/playlist?list=PL1WsZAYeCpYUA-k5Ry5O803GpipEnoFQk"
+literal "true"
+
+\end_inset
+
+and 
+\begin_inset CommandInset href
+LatexCommand href
+name "\color{blue}{GitHub}"
+target "https://github.com/fcen-amateur/aa-en-grafos"
+literal "true"
+
+\end_inset
+
+, and covers `networkx', `igraph' and `neo4j', as well as the scientific python stack.
+\end_layout
+
+\begin_layout Entry
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+2012 – 2017
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+
+\begin_layout Standard
+Junior Mathematical Olympiad Coach
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+
+\begin_layout Standard
+Various schools
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+
+\begin_layout Standard
+Buenos Aires, Argentina
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+2006 – 2016
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+
+\begin_layout Standard
+Private tutor
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+
+\begin_layout Standard
+Buenos Aires, Agentina
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+
+\end_inset
+
+I taught Mathematics, Physics and Chemistry for elementary to undergraduate-level students.
+\end_layout
+
+\begin_layout Entry
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+2012 – 2015
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+
+\begin_layout Standard
+Teaching Assistant
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+
+\begin_layout Standard
+Facultad de Cs. Económicas; Universidad de Buenos Aires
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+
+\begin_layout Standard
+Argentina
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+
+\end_inset
+
+I taught 
+\begin_inset Quotes eld
+\end_inset
+
+Statistics II
+\begin_inset Quotes erd
+\end_inset
+
+, a senior-year class on Hypothesis Testing and Generalized Linear Models.
+\end_layout
+
+\begin_layout Section
+Education
+\end_layout
+
+\begin_layout Entry
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+2017 – 2021
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+
+\begin_layout Standard
+MSc in Statistics
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+
+\begin_layout Standard
+Facultad de Ciencias Exactas y Naturales - UBA
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+
+\end_inset
+
+GPA: 10.0 (10.0 scale). My thesis (in progress, due July 2022) uses the 
+\emph on
+Fermat distance
+\emph default
+, a graph-based approach to distance estimation on 
+\begin_inset Formula $d$
+\end_inset
+
+-dimensional manifolds embedded in 
+\begin_inset Formula $\mathbb{R}^D\ (d\ll D)$
+\end_inset
+
+ to produce a kernel density estimation on the manifold, which can then be used for classification tasks.
+\end_layout
+
+\begin_layout Entry
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+2009 – 2014
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status collapsed
+
+
+\begin_layout Standard
+Licenciatura en Economía (BA + MA in Economics)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+
+\begin_layout Standard
+Facultad de Cs. Económicas - UBA
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+
+\end_inset
+
+
+\begin_inset Argument 5
+status collapsed
+
+
+\end_inset
+
+GPA: 8.94 (10.0 scale). Graduated 
+\emph on
+magna cum laude
+\emph default
+, as valedictorian of my class. My masters' thesis, 
+\emph on
+The Limits of Electoral Predictability
+\emph default
+, is publicly available on GitHub (
+\begin_inset CommandInset href
+LatexCommand href
+name "\color{blue}{code}"
+target "https://github.com/capitantoto/tesis_mesis/blob/master/ruby/programa.rb"
+literal "true"
+
+\end_inset
+
+and 
+\begin_inset CommandInset href
+LatexCommand href
+name "\color{blue}{essay}"
+target "https://github.com/capitantoto/tesis_mesis/blob/master/texes/tesis.pdf"
+literal "true"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Section
+Languages
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "1.0in"
+special "maincolumnwidth"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+
+\begin_layout Plain Layout
+ 
+\begin_inset Flex Flex:Multiple Columns
+status collapsed
+
+\begin_layout Standard
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+2
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+cvlanguage
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Spanish
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Native speaker
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+cvlanguage
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+French
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Advanced
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+columnbreak
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+cvlanguage
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+English
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Bilingual 
+\size scriptsize
+
+\emph on
+CPE (CEFR C2), 2008. Grade: A
+\emph default
+
+\size default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+cvlanguage
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Portuguese
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Advanced
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Courses
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "1.0in"
+special "maincolumnwidth"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+
+\begin_layout Plain Layout
+ 
+\begin_inset Flex Flex:Multiple Columns
+status collapsed
+
+\begin_layout Standard
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+2
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+cvlanguage
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+AWS
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "\color{blue}{Architecting on AWS}"
+target "https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=a7vdggmA406jSwdQN6YTjA2"
+literal "true"
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+columnbreak
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+cvlanguage
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Coursera
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "\color{blue}{Machine Learning}"
+target "https://www.coursera.org/account/accomplishments/verify/5BJS2WRBAMWB"
+literal "true"
+
+\end_inset
+
+, with Andrew Nguyen
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% 
+\backslash
+section{Interests}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+cvitem{Science Olympiads}{I participated in several Science Olympiads throughout high school. I obtained three silver medals in the National Chemistry Olympiad (2006-2008), as well as a 2nd place in the National Mathematic Olympiad (2005), and silver medals in the "Olimpiada Matematica Rioplatense" (2006) and "Olimpiada Matematica del Cono Sur" (2007)}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% 
+\backslash
+cvitem{Machine Learning}{I completed Stanford's ``Machine Learning'' course by Andrew Nguyen on Coursera, about contemporary machine learning techniques. [
+\backslash
+href{https://www.coursera.org/account/accomplishments/certificate/5BJS2WRBAMWB}{{
+\backslash
+color{blue}{link to certificate}}}]}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% 
+\backslash
+cvitem{Science Olympiads}{I participated throughout high school in Mathematical and Chemistry Olympiads, consistently obtaining top finishes at national (chemistry) and international (mathematics) events.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+cvitem{Intellectual Property}{I gave a talk entitled 
+\backslash
+emph{Reflections on the Epistemology of Intellectual Property}, analyzing the effects that IP rights have on the development of art, culture, science and technology. Presented at the XVIII ``Jornadas de Epistemología de las Ciencias Económicas'', Universidad de Buenos Aires, 2012.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+cvitem{Personal}{In my spare time, I binge on second hand books, spend the nights cooking and eating with my girlfriend Victoria or play the guitar in the park while Molly & Nina, our dogs, run merrily around.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
