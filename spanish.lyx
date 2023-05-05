@@ -79,7 +79,17 @@ multicol
 \index_command default
 \paperfontsize 11
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "urlcolor=red,linkcolor=green"
 \papersize a4paper
 \use_geometry true
 \use_package amsmath 1
@@ -102,6 +112,11 @@ multicol
 \justification true
 \use_refstyle 0
 \use_minted 0
+\branch Otros
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
 \index Index
 \shortcut idx
 \color #008000
@@ -191,6 +206,22 @@ blue
 0.7in
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hypersetup{linkcolor=blue}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout MakeCVtitle
 
 \end_layout
@@ -214,7 +245,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Gerente de Ciencia de Datos
+Gerente de Ingeniería, Ciencia de Datos
 \end_layout
 
 \end_inset
@@ -239,30 +270,18 @@ Remoto
 
 \end_inset
 
-Además de definir las prioridades de desarrollo del equipo en conjunto con
- Producto y el resto de Tecnología, en mi tiempo como gerente avanzamos
- la 
-\begin_inset Quotes eld
-\end_inset
-
-profesionalización
-\begin_inset Quotes erd
-\end_inset
-
- del equipo.
- Implementamos metodologías ágiles de desarrollo, documentamos el código
- de librerías de uso interno y definimos estándares de reproducibilidad
- y acceso para todo análisis que el equipo produce.
- Definí el 
-\begin_inset Quotes eld
-\end_inset
-
-escalafón de carrera
-\begin_inset Quotes erd
-\end_inset
-
- y actualizamos los exámenes técnicos para potenciales candidatos, para
- que el equipo pase de 7 a 12 personas.
+Definí prioridades de desarrollo del equipo en conjunto con la gerencia
+ de otros equipos.
+ Coordiné la migración del uso de GLMs 
+\emph on
+in-house
+\emph default
+ a LightGBM para nuestros estimadores.
+ Para profesionalizar el equipo, implementamos metodologías ágiles, documentamos
+ librerías internas y definimos estándares de reproducibilidad y acceso
+ para los análisis producidos.
+ Escribí el primer escalafón de carrera, actualicé los exámenes técnicos,
+ y expandimos el equipo de 7 a 12 personas.
 \end_layout
 
 \begin_layout Entry
@@ -307,30 +326,29 @@ Buenos Aires
 
 Asistí en el desarrollo del motor de optimización de ingresos para el servicio
  de Real Time Bidding (RTB) que la compañía ofrece.
- Presentamos los resultamos en la 
+ Presentamos los resultamos en la KDD 2019 [
 \begin_inset CommandInset href
 LatexCommand href
-name "KDD 2019"
+name "link"
 target "https://www.adkdd.org/Papers/Optimal-bidding%3A-a-dual-approach/2019"
 literal "false"
 
 \end_inset
 
-.
- Nuestro equipo estaba a cargo del sistema de predicción de tasas de impresión
- (
+].
+ Nuestro equipo era responsable por el sistema de predicción de tasas de
+ conversión (
 \emph on
 win rate
 \emph default
-), click (CTR) y conversión (CVR) de los avisos.
- Para entrenar modelos sobre billones de observaciones a bajo costo usamos
- descenso de gradiente estocástico 
+, CTR, CVR) de avisos.
+ Entrenamos sobre billones de observaciones a bajo costo con un algoritmo
+ propio de SGD 
 \emph on
 online,
 \emph default
- y para procesar más de un millón de subastas por segundo, elegimos modelos
- lineales generalizados fuertemente regularizados sobre interacciones de
- segundo y tercer orden de variables categóricas.
+ y procesamos más de 1M de subastas por segundo, con modelos lineales generaliza
+dos fuertemente regularizados.
 \end_layout
 
 \begin_layout Entry
@@ -378,11 +396,10 @@ Nuestro equipo diseñó, desarrolló y gestionó un sistema de
 business intelligence
 \emph default
  (BI) que integra información de múltiples sistema de gestión de la Administraci
-ón Pública Nacional (Presupuesto nacional, Nómina de personal, Programas
- de políticas públicas, etc.).
- Colaboré en la definición del modelo de datos y los ETLs que lo alimentan,
- además de asistir a cada ministerio en la definición de sus objetivos y
- métricas clave
+ón Pública Nacional (e.g.
+ Presupuesto, Nómina, Políticas Públicas).
+ Colaboré en la definición del modelo de datos y sus ETLs, además de asesorar
+ ministerios en la definición de sus objetivos y métricas clave
 \emph on
  
 \emph default
@@ -430,8 +447,8 @@ Buenos Aires & Charlotte, NC
 \end_inset
 
 Automaticé el sistema de reportes operativos para Marketing y Logística.
- Diseñé y ejecuté un test de hipótesis múltiples para elegir el esquema
- de tarifas del club que maximice la retención.
+ Diseñé y ejecuté un test de hipótesis múltiples para elegir un esquema
+ de tarifas que maximice la retención.
  Estudié el problema de detección de fraude (cuentas falsas) a partir de
  
 \emph on
@@ -473,7 +490,8 @@ Docente Auxiliar
 status open
 
 \begin_layout Plain Layout
-Facultad de Ciencias Exactas y Naturales, UBA
+Facultad de CS.
+ Exactas y Naturales, Facultad de Ingeniería, UBA
 \end_layout
 
 \end_inset
@@ -498,7 +516,16 @@ Virtual
 
 \end_inset
 
-Aprendizaje Automático en Grafos, con el Docente Titular Dr.
+
+\begin_inset Quotes eld
+\end_inset
+
+Aprendizaje Automático en Grafos
+\begin_inset Quotes erd
+\end_inset
+
+, con el Doc.
+ Titular Dr.
  Martín Elías Costa.
 \emph on
 
@@ -550,7 +577,8 @@ Ayudante de Segunda
 status open
 
 \begin_layout Plain Layout
-Facultad de Ciencias Económicas, UBA
+Facultad de Cs.
+ Económicas, UBA
 \end_layout
 
 \end_inset
@@ -612,17 +640,7 @@ Buenos Aires
 
 \end_inset
 
-
-\begin_inset Argument 5
-status open
-
-\begin_layout Plain Layout
-un opcional
-\end_layout
-
-\end_inset
-
- Nivel primario y secundario.
+Nivel primario y secundario.
 \end_layout
 
 \begin_layout Entry
@@ -679,33 +697,12 @@ Buenos Aires
 Educación
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-%
-\backslash
-cventry{2004--2008}{Bachiller}{Colegio Nacional de Buenos Aires}{}{}{} 
- % arguments 3 to 6 can be left empty
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Entry
 \begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-Abr '17 – Dic '21
+2017 – 21
 \end_layout
 
 \end_inset
@@ -725,49 +722,62 @@ Maestría en Estadística Matemática
 status open
 
 \begin_layout Plain Layout
-Facultad de Ciencias Exactas y Naturales - UBA
+Instituto del Cálculo, FCEyN, UBA
 \end_layout
 
 \end_inset
 
+Promedio 10.0
+\end_layout
 
-\begin_inset Argument 4
+\begin_layout Entry
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
+Tesis
+\end_layout
 
+\end_inset
+
+ 
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Distancia de Fermat en Estimadores de Densidad Nuclear
 \end_layout
 
 \end_inset
 
 
 \begin_inset Argument 5
-status collapsed
+status open
 
 \begin_layout Plain Layout
-
+en progreso
 \end_layout
 
 \end_inset
 
-Plan completo, promedio 10/10.
- Tesis (
-\begin_inset Quotes eld
-\end_inset
-
-Distancia de Fermat en Estimadores de Densidad por Núcleos
-\begin_inset Quotes erd
-\end_inset
-
-) en progreso, estimado Junio 2023
+Director: Dr.
+ Pablo Groisman.
+ Propongo entrenar un clasificador basado en KDEs, reemplazarndo la distancia
+ euclídea por la distancia de Fermat, que en un único paso aprende la geometría
+ y densidad de 
+\emph on
+datasets
+\emph default
+ definidos en variedades de Riemann desconocidas.
+ Evalúo el clasificador contra métodos contemporáneos como GBTs y NNs.
 \end_layout
 
 \begin_layout Entry
 \begin_inset Argument 1
-status collapsed
+status open
 
 \begin_layout Plain Layout
-2009 – 2014
+2009 – 14
 \end_layout
 
 \end_inset
@@ -787,36 +797,17 @@ Licenciatura en Economía
 status open
 
 \begin_layout Plain Layout
-Facultad de Ciencias Económicas - UBA
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 4
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 5
-status collapsed
-
-\begin_layout Plain Layout
-
+Facultad de Cs.
+ Económicas, UBA
 \end_layout
 
 \end_inset
 
 Graduado 
 \emph on
-magna cum laude
+Magna Cum Laude
 \emph default
-, con el tercer mejor promedio de mi camada (8,94/10).
+ con promedio 8.94, el tercero mejor de mi camada.
 \end_layout
 
 \begin_layout Entry
@@ -824,17 +815,66 @@ magna cum laude
 status open
 
 \begin_layout Plain Layout
-Mar '14
+Tesis
 \end_layout
 
 \end_inset
 
 
 \begin_inset Argument 2
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Los límites de la predictabilidad electoral
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+calif.
+ 10/10
+\end_layout
+
+\end_inset
+
+ Directora: Dra.
+ Silvia Vietri.
+ Usando datos abiertos de las elecciones legislativas nacionales del 2013,
+ primero estimé el mínimo error posible en la predicción del resultado del
+ comicio, en función del tamaño muestral; luego, analicé la veracidad de
+ afirmaciones periodísticas contemporáneas.
+ Públicamente disponible en GitHub [
+\begin_inset CommandInset href
+LatexCommand href
+name "link"
+target "https://github.com/capitantoto/tesis_mesis"
+literal "false"
+
+\end_inset
+
+].
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2004 – 08
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Bachiller
 \end_layout
 
 \end_inset
@@ -844,55 +884,12 @@ Los límites de la predictabilidad electoral
 status open
 
 \begin_layout Plain Layout
-Facultad de Cs.
- Económicas - UBA
+Colegio Nacional de Buenos Aires, UBA
 \end_layout
 
 \end_inset
 
 
-\begin_inset Argument 4
-status collapsed
-
-\begin_layout Plain Layout
-10/10
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 5
-status collapsed
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-Usando datos abiertos de las elecciones legislativas nacionales del 2013,
- primero estimé el mínimo error posible en la predicción del resultado del
- comicio, en función del tamaño muestral; luego, analicé la veracidad de
- afirmaciones periodísticas contemporáneas.
- 
-\begin_inset CommandInset href
-LatexCommand href
-name "\\color{blue}{Código}"
-target "https://github.com/capitantoto/tesis_mesis/blob/master/ruby/programa.rb"
-literal "true"
-
-\end_inset
-
- y 
-\begin_inset CommandInset href
-LatexCommand href
-name "\\color{blue}{ensayo}"
-target "https://github.com/capitantoto/tesis_mesis/blob/master/texes/tesis.pdf"
-literal "true"
-
-\end_inset
-
- públicamente disponibles en GitHub.
 \end_layout
 
 \begin_layout Section
@@ -901,34 +898,126 @@ Antecedentes de Extensión
 
 \begin_layout Item
 \begin_inset Argument 1
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Aprendizaje Automático
+PyData 2019
 \end_layout
 
 \end_inset
 
-Completé el curso 
+Presenté la charla 
+\begin_inset Quotes eld
+\end_inset
+
+Optimización de Ofertas, un enfoque dual
+\begin_inset Quotes erd
+\end_inset
+
+, exponiendo los resultados del 
+\emph on
+paper
+\emph default
+ de la KDD 2019 a un público más amplio.
+ [
+\begin_inset CommandInset href
+LatexCommand href
+name "link"
+target "https://www.youtube.com/watch?v=tGC1mRJ7DQU&list=PLGVZCDnMOq0o52l-2QTCAbnXeMdNoSh7h&index=13&t=801s&pp=iAQB"
+literal "false"
+
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+fcen-amateur
+\end_layout
+
+\end_inset
+
+Mantengo una organización abierta en Github con prácticas y exámenes resueltos
+ de materias que he cursado y dictado en la FCEyN, para impulsar buenas
+ prácticas de programación en el ámbito científico-académico.
+ [
+\begin_inset CommandInset href
+LatexCommand href
+name "link"
+target "https://github.com/fcen-amateur"
+literal "false"
+
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Code 4 Dev
+\end_layout
+
+\end_inset
+
+Colaboré en 
+\family typewriter
+pydatajson, 
+\family default
+una librería para manipular de metadatos, distinguida por el BID en su programa
+ de FOSS, 
+\emph on
+Code for Development
+\emph default
+ [
+\begin_inset CommandInset href
+LatexCommand href
+name "link"
+target "https://code.iadb.org/en/tools/pydatajson"
+literal "false"
+
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Machine Learning
+\end_layout
+
+\end_inset
+
+Completé 
 \emph on
 Machine Learning
 \emph default
-, de Andrew Nguyen y la Universidad de Stanford en Coursera, sobre técnicas
- contemporáneas de aprendizaje automático (
+, de la Universidad de Stanford, sobre técnicas contemporáneas de aprendizaje
+ automático [
 \begin_inset CommandInset href
 LatexCommand href
-name "\\color{blue}{ver certificado}"
+name "certificado"
 target "https://www.coursera.org/account/accomplishments/certificate/5BJS2WRBAMWB"
 literal "true"
 
 \end_inset
 
-).
+].
+ 
 \end_layout
 
 \begin_layout Item
 \begin_inset Argument 1
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Olimpíadas Científicas
@@ -937,8 +1026,82 @@ Olimpíadas Científicas
 \end_inset
 
 Durante el secundario participé en Olimpíadas de Matemática y Química, obteniend
-o varias medallas en eventos nacionales (Química) e internacionales (Matemática).
+o varias medallas en eventos nacionales (Química) e internacionales (Matemática)
 \end_layout
+
+\begin_layout Section
+Habilidades Informáticas
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Fluido
+\end_layout
+
+\end_inset
+
+Python (
+\emph on
++ stack 
+\emph default
+científico) , SQL, R, Unix OSs, Git, AWS, R, Tableau
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Funcional
+\end_layout
+
+\end_inset
+
+Airflow, Jenkins, GCP, JavaScript, HTML/CSS, Ruby, MATLAB, \SpecialChar LaTeX
+, Pentaho
+\end_layout
+
+\begin_layout Section
+Idiomas
+\end_layout
+
+\begin_layout DoubleListItem
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Español - Nativo 
+\end_layout
+
+\end_inset
+
+Francés - Avanzado
+\end_layout
+
+\begin_layout DoubleListItem
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Inglés - Bilingüe
+\size scriptsize
+\emph on
+ CPE (CEFR C2), 2008.
+ Calificación: A
+\end_layout
+
+\end_inset
+
+Portugués - Avanzado
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Otros
+inverted 0
+status open
 
 \begin_layout Item
 \begin_inset Argument 1
@@ -967,96 +1130,9 @@ XVIII Jornadas de Epistemología de las Cs.
 .
 \end_layout
 
-\begin_layout Section
-Habilidades Informáticas
-\end_layout
-
-\begin_layout Item
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Competente
-\end_layout
-
 \end_inset
 
-Python (numpy, pandas, scikit-learn, etc.) , SQL, R, Tableau, Pentaho, herramient
-as Unix
-\end_layout
 
-\begin_layout Item
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Familiarizado
-\end_layout
-
-\end_inset
-
-Ruby, MATLAB, HTML/CSS, JavaScript, \SpecialChar LaTeX
-
-\end_layout
-
-\begin_layout Section
-Idiomas
-\end_layout
-
-\begin_layout Item
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Español
-\end_layout
-
-\end_inset
-
- Nativo
-\end_layout
-
-\begin_layout Item
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Inglés
-\end_layout
-
-\end_inset
-
- Bilingüe 
-\size scriptsize
-\emph on
-CPE (CEFR C2), 2008.
- Calificación: A
-\end_layout
-
-\begin_layout Item
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Francés
-\end_layout
-
-\end_inset
-
- Avanzado
-\end_layout
-
-\begin_layout Item
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Portugués
-\end_layout
-
-\end_inset
-
- Avanzado
 \end_layout
 
 \end_body
