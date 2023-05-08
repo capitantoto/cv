@@ -1,0 +1,1083 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass moderncv
+\begin_preamble
+
+
+% moderncv themes
+%\moderncvtheme{casual}
+%\moderncvtheme[green]{casual}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+% replace by the encoding you are using
+% Multi-column layout for languages and technical skills
+\usepackage{multicol}
+% adjust the page margins
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% Hyperlinks
+%\usepackage{hyperref}								% to use hyperlinks
+%\definecolor{linkcolour}{rgb}{0,0.2,0.6}			% hyperlinks setup
+%\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+% personal data
+%\name{Gonzalo}{Barrera Borla}
+%\address{Paraguay 4252 2do B}{C1425BSJ CABA}{Argentina}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+% \phone[fixed]{+54~(11)~4856~0867}                    % optional, remove / comment the line if not wanted
+%\phone[mobile]{+54~9~(11)~4082~6338}                    % optional, remove / comment the line if not wanted
+%\email{gonzalobb@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{github.com/capitantoto}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[100pt][0pt]{profile_image}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\end_preamble
+\options colorlinks=true,urlcolor=color1
+\use_default_options true
+\begin_modules
+multicol
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref page
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\branch Otros
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 0
+\tocdepth -1
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle plain
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Name
+Gonzalo Barrera Borla
+\end_layout
+
+\begin_layout Address
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Av.
+ Rómulo Naón 2350
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+C1430EPL, Buenos Aires, Argentina
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Phone
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+mobile
+\end_layout
+
+\end_inset
+
++5491140826338
+\end_layout
+
+\begin_layout Email
+gonzalobb@gmail.com
+\end_layout
+
+\begin_layout Homepage
+github.com/capitantoto
+\end_layout
+
+\begin_layout CVStyle
+classic
+\end_layout
+
+\begin_layout CVColor
+blue
+\end_layout
+
+\begin_layout CVColumnWidth
+0.7in
+\end_layout
+
+\begin_layout MakeCVtitle
+
+\end_layout
+
+\begin_layout Section
+Antecedentes Profesionales
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2021 – 22
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Gerente de Ingeniería, Ciencia de Datos
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Jampp
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Remoto
+\end_layout
+
+\end_inset
+
+Definí prioridades de desarrollo del equipo junto con la gerencia de Producto
+ y Tecnología.
+ Coordiné la migración de estimadores GLMs 
+\emph on
+in-house
+\emph default
+ a LightGBM.
+ Profesionalizamos el equipo, implementando metodologías ágiles, documentando
+ librerías internas y definiendo estándares de reproducibilidad y acceso
+ para los análisis producidos.
+ Escribí el primer escalafón de carrera, actualicé los exámenes técnicos,
+ y agrandé el equipo de 7 a 12 personas.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2019 – 20
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Científico de Datos Senior
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Jampp
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Buenos Aires
+\end_layout
+
+\end_inset
+
+Asistí en el desarrollo del motor de optimización de ingresos para nuestro
+ servicio de Real Time Bidding (RTB).
+ Presentamos los resultados en 
+\begin_inset CommandInset href
+LatexCommand href
+name "AdKDD 2019"
+target "https://www.adkdd.org/Papers/Optimal-bidding%3A-a-dual-approach/2019"
+literal "false"
+
+\end_inset
+
+.
+ El equipo era responsable por el sistema de predicción de tasas de conversión
+ (
+\emph on
+win rate
+\emph default
+, CTR, CVR) de avisos.
+ Entrenamos sobre billones de observaciones a bajo costo con GLMs y SGD
+ 
+\emph on
+online,
+\emph default
+ y procesamos más de 1M de subastas por segundo, con modelos lineales generaliza
+dos fuertemente regularizados.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2016 – 19
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Asesor Experto en Análisis de Datos
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+Jefatura de Gabinete de Ministros
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+Buenos Aires
+\end_layout
+
+\end_inset
+
+Nuestro equipo diseñó, desarrolló y gestionó un sistema de 
+\emph on
+business intelligence
+\emph default
+ (BI) que integra información de múltiples sistema de gestión de la Administraci
+ón Pública Nacional (e.g.
+ Presupuesto, Nómina, Políticas Públicas).
+ Colaboré en la definición del modelo de datos y sus ETLs, además de asesorar
+ ministerios en la definición de sus objetivos y métricas clave
+\emph on
+ 
+\emph default
+(OKRs) a partir de la información integrada.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2013 – 16
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Analista de Negocios
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+NASCAR Members Club
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Buenos Aires & Charlotte, NC
+\end_layout
+
+\end_inset
+
+Automaticé el sistema de reportes operativos para Marketing y Logística.
+ Diseñé y ejecuté un test de hipótesis múltiples para elegir un esquema
+ de tarifas que maximice la retención.
+ Estudié el problema de detección de fraude (cuentas falsas) a partir de
+ 
+\emph on
+features 
+\emph default
+del usuario usando modelos logísticos.
+\end_layout
+
+\begin_layout Section
+Antecedentes Docentes
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $2^{\text{do}}$
+\end_inset
+
+ sem.
+ 2021
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Docente Auxiliar
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Facultad de CS.
+ Exactas y Naturales, Facultad de Ingeniería, UBA
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Buenos Aires
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Virtual
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Aprendizaje Automático en Grafos
+\begin_inset Quotes erd
+\end_inset
+
+, con el Doc.
+ Titular Dr.
+ Martín Elías Costa.
+
+\emph on
+ 
+\emph default
+Clases teóricas disponibles en 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Youtube"
+target "https://youtube.com/playlist?list=PL1WsZAYeCpYUA-k5Ry5O803GpipEnoFQk"
+literal "false"
+
+\end_inset
+
+
+\emph default
+ y repositorio con prácticas y material didáctico en 
+\begin_inset CommandInset href
+LatexCommand href
+name "GitHub"
+target "https://github.com/fcen-amateur/aa-en-grafos"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2012 – 15
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Ayudante de Segunda
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Facultad de Cs.
+ Económicas, UBA
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status collapsed
+
+\begin_layout Plain Layout
+Buenos Aires
+\end_layout
+
+\end_inset
+
+Estadística II, con la Prof.
+ Adj.
+ Dra.
+ Silvia Vietri
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2012 – 17
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Entrenador de Olimpíadas Matemáticas
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Colegio Boston, Escuela Intl.
+ New Model y Colegio Bayard
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Buenos Aires
+\end_layout
+
+\end_inset
+
+Nivel primario y secundario.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2006 – 16
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Tutor privado en Matemática, Física y Química
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Buenos Aires
+\end_layout
+
+\end_inset
+
+ Nivel secundario y preuniversitario.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Educación
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2017 – 21
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Maestría en Estadística Matemática
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Instituto del Cálculo, FCEyN, UBA
+\end_layout
+
+\end_inset
+
+Promedio 10.0
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Tesis
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Distancia de Fermat en Estimadores de Densidad Nuclear
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+en progreso
+\end_layout
+
+\end_inset
+
+Director: Dr.
+ Pablo Groisman.
+ Propongo entrenar un clasificador basado en KDEs, reemplazarndo la distancia
+ euclídea por la distancia de Fermat, que en un único paso aprende la geometría
+ y densidad de 
+\emph on
+datasets
+\emph default
+ definidos en variedades de Riemann desconocidas.
+ Evalúo el clasificador contra métodos contemporáneos como GBTs y NNs.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2009 – 14
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Licenciatura en Economía
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Facultad de Cs.
+ Económicas, UBA
+\end_layout
+
+\end_inset
+
+Graduado 
+\emph on
+Magna Cum Laude
+\emph default
+ con promedio 8.94, el tercero mejor de mi camada.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Tesis
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Los límites de la predictabilidad electoral
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+calif.
+ 10/10
+\end_layout
+
+\end_inset
+
+ Directora: Dra.
+ Silvia Vietri.
+ Usando datos abiertos de las elecciones legislativas nacionales del 2013,
+ primero estimé el mínimo error posible en la predicción del resultado del
+ comicio, en función del tamaño muestral; luego, analicé la veracidad de
+ afirmaciones periodísticas contemporáneas.
+ Públicamente disponible en GitHub [
+\begin_inset CommandInset href
+LatexCommand href
+name "link"
+target "https://github.com/capitantoto/tesis_mesis"
+literal "false"
+
+\end_inset
+
+].
+\end_layout
+
+\begin_layout Entry
+\begin_inset Branch Otros
+inverted 0
+status open
+
+\begin_layout Standard
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2004 – 08
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Bachiller
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Colegio Nacional de Buenos Aires, UBA
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Antecedentes de Extensión
+\end_layout
+
+\begin_layout ListItem
+\begin_inset CommandInset href
+LatexCommand href
+name "Presenté"
+target "https://www.youtube.com/watch?v=tGC1mRJ7DQU&list=PLGVZCDnMOq0o52l-2QTCAbnXeMdNoSh7h&index=13&t=801s&pp=iAQB"
+literal "false"
+
+\end_inset
+
+ la charla 
+\begin_inset Quotes eld
+\end_inset
+
+Optimización de Ofertas, un enfoque dual
+\begin_inset Quotes erd
+\end_inset
+
+, exponiendo los resultados de AdKDD 2019 a la comunidad local.
+\end_layout
+
+\begin_layout ListItem
+\begin_inset CommandInset href
+LatexCommand href
+name "Mantengo"
+target "https://github.com/fcen-amateur"
+literal "false"
+
+\end_inset
+
+ 
+\family typewriter
+fcen-amateur
+\family default
+, una organización abierta en GitHub con prácticas y exámenes resueltos
+ de las materias que curso o dicto en la FCEyN, para impulsar la práctica
+ de la programación en el ámbito científico-académico.
+\end_layout
+
+\begin_layout ListItem
+\begin_inset CommandInset href
+LatexCommand href
+name "Colaboré"
+target "https://code.iadb.org/en/tools/pydatajson"
+literal "false"
+
+\end_inset
+
+ en 
+\family typewriter
+pydatajson, 
+\family default
+una librería para manipular metadatos, distinguida por el BID en su programa
+ de FOSS, 
+\emph on
+Code for Development.
+\end_layout
+
+\begin_layout ListItem
+\begin_inset CommandInset href
+LatexCommand href
+name "Completé"
+target "https://www.coursera.org/account/accomplishments/certificate/5BJS2WRBAMWB"
+literal "false"
+
+\end_inset
+
+ 
+\emph on
+Machine Learning
+\emph default
+, de la Universidad de Stanford, sobre técnicas contemporáneas de aprendizaje
+ automático.
+\end_layout
+
+\begin_layout ListItem
+Participé mucho tiempo de Olimpíadas de Matemática y Química, y obtuve distincio
+nes nacionales (Química) e internacionales (Matemática).
+\end_layout
+
+\begin_layout Section
+Habilidades Informáticas
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Fluido
+\end_layout
+
+\end_inset
+
+Python (
+\emph on
++ stack 
+\emph default
+científico) , SQL, Unix OSs, Git, AWS, Tableau
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Funcional
+\end_layout
+
+\end_inset
+
+Airflow, Jenkins, GCP, JavaScript, HTML/CSS, Ruby, MATLAB, \SpecialChar LaTeX
+, Pentaho
+\end_layout
+
+\begin_layout Section
+Idiomas
+\end_layout
+
+\begin_layout DoubleListItem
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Español - Nativo 
+\end_layout
+
+\end_inset
+
+Francés - Avanzado
+\end_layout
+
+\begin_layout DoubleListItem
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Inglés - Bilingüe
+\size scriptsize
+\emph on
+ CPE (CEFR C2), 2008.
+ Calificación: A
+\end_layout
+
+\end_inset
+
+Portugués - Avanzado
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Otros
+inverted 0
+status open
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Propiedad Intelectual
+\end_layout
+
+\end_inset
+
+Di la charla 
+\emph on
+Reflexiones sobre la Epistemología de la Propiedad Intelectual
+\emph default
+, analizando sus efectos en el desarrollo científico y tecnológico, en las
+ 
+\begin_inset Quotes eld
+\end_inset
+
+XVIII Jornadas de Epistemología de las Cs.
+ Económicas
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
