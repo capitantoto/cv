@@ -310,10 +310,10 @@ Buenos Aires
 
 Asistí en el desarrollo del motor de optimización de ingresos para nuestro
  servicio de Real Time Bidding (RTB).
- Presentamos los resultados en 
+ Presentamos los resultados en la 
 \begin_inset CommandInset href
 LatexCommand href
-name "AdKDD 2019"
+name "KDD 2019"
 target "https://www.adkdd.org/Papers/Optimal-bidding%3A-a-dual-approach/2019"
 literal "false"
 
@@ -848,11 +848,6 @@ literal "false"
 \end_layout
 
 \begin_layout Entry
-\begin_inset Branch Otros
-inverted 0
-status open
-
-\begin_layout Standard
 \begin_inset Argument 1
 status open
 
@@ -885,25 +880,21 @@ Colegio Nacional de Buenos Aires, UBA
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Antecedentes de Extensión
 \end_layout
 
-\begin_layout ListItem
-\begin_inset CommandInset href
-LatexCommand href
-name "Presenté"
-target "https://www.youtube.com/watch?v=tGC1mRJ7DQU&list=PLGVZCDnMOq0o52l-2QTCAbnXeMdNoSh7h&index=13&t=801s&pp=iAQB"
-literal "false"
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+PyData 2019
+\end_layout
 
 \end_inset
 
- la charla 
+Presenté la charla 
 \begin_inset Quotes eld
 \end_inset
 
@@ -911,66 +902,119 @@ Optimización de Ofertas, un enfoque dual
 \begin_inset Quotes erd
 \end_inset
 
-, exponiendo los resultados de AdKDD 2019 a la comunidad local.
-\end_layout
-
-\begin_layout ListItem
+, exponiendo los resultados del 
+\emph on
+paper
+\emph default
+ de la KDD 2019 a un público más amplio.
+ [
 \begin_inset CommandInset href
 LatexCommand href
-name "Mantengo"
+name "link"
+target "https://www.youtube.com/watch?v=tGC1mRJ7DQU&list=PLGVZCDnMOq0o52l-2QTCAbnXeMdNoSh7h&index=13&t=801s&pp=iAQB"
+literal "false"
+
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+fcen-amateur
+\end_layout
+
+\end_inset
+
+Mantengo una organización abierta en Github con prácticas y exámenes resueltos
+ de materias que he cursado y dictado en la FCEyN, para impulsar buenas
+ prácticas de programación en el ámbito científico-académico.
+ [
+\begin_inset CommandInset href
+LatexCommand href
+name "link"
 target "https://github.com/fcen-amateur"
 literal "false"
 
 \end_inset
 
- 
-\family typewriter
-fcen-amateur
-\family default
-, una organización abierta en GitHub con prácticas y exámenes resueltos
- de las materias que curso o dicto en la FCEyN, para impulsar la práctica
- de la programación en el ámbito científico-académico.
+]
 \end_layout
 
-\begin_layout ListItem
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Code 4 Dev
+\end_layout
+
+\end_inset
+
+Colaboré en 
+\family typewriter
+pydatajson, 
+\family default
+una librería para manipular de metadatos, distinguida por el BID en su programa
+ de FOSS, 
+\emph on
+Code for Development
+\emph default
+ [
 \begin_inset CommandInset href
 LatexCommand href
-name "Colaboré"
+name "link"
 target "https://code.iadb.org/en/tools/pydatajson"
 literal "false"
 
 \end_inset
 
- en 
-\family typewriter
-pydatajson, 
-\family default
-una librería para manipular metadatos, distinguida por el BID en su programa
- de FOSS, 
-\emph on
-Code for Development.
+]
 \end_layout
 
-\begin_layout ListItem
-\begin_inset CommandInset href
-LatexCommand href
-name "Completé"
-target "https://www.coursera.org/account/accomplishments/certificate/5BJS2WRBAMWB"
-literal "false"
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Machine Learning
+\end_layout
 
 \end_inset
 
- 
+Completé 
 \emph on
 Machine Learning
 \emph default
 , de la Universidad de Stanford, sobre técnicas contemporáneas de aprendizaje
- automático.
+ automático [
+\begin_inset CommandInset href
+LatexCommand href
+name "certificado"
+target "https://www.coursera.org/account/accomplishments/certificate/5BJS2WRBAMWB"
+literal "true"
+
+\end_inset
+
+].
+ 
 \end_layout
 
-\begin_layout ListItem
-Participé mucho tiempo de Olimpíadas de Matemática y Química, y obtuve distincio
-nes nacionales (Química) e internacionales (Matemática).
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Olimpíadas Científicas
+\end_layout
+
+\end_inset
+
+Durante el secundario participé en Olimpíadas de Matemática y Química, obteniend
+o varias medallas en eventos nacionales (Química) e internacionales (Matemática)
 \end_layout
 
 \begin_layout Section
@@ -991,7 +1035,7 @@ Python (
 \emph on
 + stack 
 \emph default
-científico) , SQL, Unix OSs, Git, AWS, Tableau
+científico) , SQL, R, Unix OSs, Git, AWS, R, Tableau
 \end_layout
 
 \begin_layout Item
