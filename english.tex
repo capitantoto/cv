@@ -1,16 +1,67 @@
-\documentclass[11pt,a4paper,sans]{moderncv}
+%% LyX 2.3.7 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[11pt,colorlinks=true,urlcolor=color1]{moderncv}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+\pagestyle{plain}
+\setcounter{secnumdepth}{0}
+\usepackage{color}
+\usepackage{amstext}
+\ifx\hypersetup\undefined
+  \AtBeginDocument{%
+    \hypersetup{unicode=true,pdfusetitle,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=false,pdfborder={0 0 1},backref=page,colorlinks=true}
+  }
+\else
+  \hypersetup{unicode=true,pdfusetitle,
+ bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+ breaklinks=false,pdfborder={0 0 1},backref=page,colorlinks=true}
+\fi
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+
+
+\name{}{Gonzalo Barrera Borla}
+
+
+\address{Av. Rómulo Naón 2350}{C1430EPL, Buenos Aires, Argentina}{ }
+
+
+\phone[mobile]{+5491140826338}
+
+
+\email{gonzalobb@gmail.com}
+
+
+\homepage{github.com/capitantoto}
+
+
+\moderncvstyle{classic}
+
+
+\moderncvcolor{blue}
+
+
+\setlength{\hintscolumnwidth}{0.7in}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+
 
 % moderncv themes
-\moderncvtheme[green]{classic}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme{casual}
+%\moderncvtheme[green]{casual}                  % optional argument are 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 %\moderncvtheme[green]{classic}                % idem
 
 % character encoding
-\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+% replace by the encoding you are using
 % Multi-column layout for languages and technical skills
 \usepackage{multicol}
 % adjust the page margins
-\usepackage[scale=0.87]{geometry}
-\usepackage{amsfonts}
 %\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 %\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
@@ -21,100 +72,135 @@
 %\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
 
 % personal data
-\name{Gonzalo}{Barrera Borla}
-\phone[mobile]{+54~(9~11)~4082~6338}                   % optional, remove / comment the line if not wanted
-\email{gonzalobb@gmail.com}                               % optional, remove / comment the line if not wanted
-\homepage{github.com/capitantoto}                         % optional, remove / comment the line if not wanted
+%\name{Gonzalo}{Barrera Borla}
+%\address{Paraguay 4252 2do B}{C1425BSJ CABA}{Argentina}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+% \phone[fixed]{+54~(11)~4856~0867}                    % optional, remove / comment the line if not wanted
+%\phone[mobile]{+54~9~(11)~4082~6338}                    % optional, remove / comment the line if not wanted
+%\email{gonzalobb@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{github.com/capitantoto}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[100pt][0pt]{profile_image}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
+
+\makeatother
+
 \begin{document}
-%-----       resume       ---------------------------------------------------------
-\makecvtitle
 
-\vspace{-0.5cm}
+\makecvtitle{}{}
 
+\section{Industry Experience}
 
-\section{Selected Industry Experience}
+\cventry{2021 -- 22}{Engineer Manager, Data Science}{Jampp}{Remote}{}{I defined development priorities for my team alongside Tech and
+Product managers. I coordinated the migration from in-house GLMs estimators
+to LightGBM. We professionalized the team, by implementing agile methodologies,
+documenting internal libraries and setting reproducibility standards
+for our analysis. I wrote the first career ladder, updated the technical
+exams and grew the team from 7 to 12 people.}
 
-\cventry{2021 -- Current}{Engineer Manager, Data Science}{Jampp @ Affle Group}{Remote}{}{After becoming SME on our statistical learning systems, I moved \emph{slightly} away from coding to technical management. Emphasis is set on sketching lines of research for continuous improvement of our bidding strategy from a theoretical standpoint, that small dedicated teams can then further on their own.}
+\cventry{2019 -- 20}{Senior Data Scientist}{Jampp}{Buenos Aires}{}{I assisted in the development of the income optimization engine
+for our Real Time Bidding (RTB) service. We presented the results
+in the \href{https://www.adkdd.org/Papers/Optimal-bidding\%3A-a-dual-approach/2019}{2019 KDD}.
+Our team was responsible for the system predicting ads' conversion
+rates (win rate, CTR, CVR). We trained cheaply on several billions
+observations with an in-house, online SGD algo, and processed 1M+
+auctions per seconds, using strongly regularised GLMs.}
 
-\cventry{2019 -- 2020}{Senior Data Scientist}{Jampp}{Buenos Aires, AR}{}{I researched, developed and monitored supervised models for classification tasks in the programmatic advertising market. Servicing predictions for 2M QPS, we developed sampling techniques to learn from extremely imbalanced (1000:1 or worse), massive (1T+ rows) datasets within exacting performance constraints.}
+\cventry{2016 -- 19}{Expert Data Analysis Advisor}{Jefatura de Gabinete de Ministros}{BA}{}{Our team implemented an end-to-end business intelligence system
+to integrate data from key systems of the National Public Administration
+(e.g. Budget, Payroll, Public Policies). I worked in defining the
+data model definition and developing ETLs, apart from advising the
+Justice and Economy ministries on how to define their OKRs within
+the system.}
 
+\cventry{2013 -- 16}{Business Analyst}{NASCAR Members Club}{Buenos Aires \& Charlotte, NC}{}{I automated all operative reports for Marketing and Logistics.
+I designed and executed a multiple hypothesis test in order to choose
+a subscription plan to minimise subscribers' churn. I reduced credit
+card chargebacks significantly with a logistic model trained on our
+members' past purchase history.}
 
-\cventry{2016 -- 2019}{Expert Data Analysis Advisor}{Chief of the Ministerial Cabinet Office}{Buenos Aires, AR}{}{I worked for the \emph{Dirección Nacional de Datos} in designing, developing and managing a BI platform to integrate data from the federal government's core management systems. I had both technical (data model \& ETL pipelines' design) and product-oriented responsibilities, such as defining objectives with stakeholders. I contributed to \href{https://code.iadb.org/repository/31/pydatajson}{\color{blue}{pydatajson}}, a python library selected by the IADB's ``\href{https://code.iadb.org/repository/31/pydatajson}{\color{blue}{Code for Development}}'' FOSS program.}
+\section{Teaching Experience}
 
+\cventry{$2^{\text{nd}}$ sem. 2021}{External Professor}{Facultad de Cs. Exactas y Naturales, Facultad de Ingeniería, UBA}{Buenos Aires}{Virtual}{I taught ``Machine Learning in Graphs'', with Prof. Martín
+Elías Costa, Ph.D.\emph{ }Video lectures available at \href{https://youtube.com/playlist?list=PL1WsZAYeCpYUA-k5Ry5O803GpipEnoFQk}{Youtube},
+exercise guides and didactic materials at \href{https://github.com/fcen-amateur/aa-en-grafos}{GitHub}.}
 
-\cventry{2013 -- 2016}{Business Data Analyst}{Official Nascar Members' Club}{Buenos Aires, AR; Charlotte, NC, USA}{}{I mostly did assorted analysis and report automation for all company teams. I also helped Marketing with rigorous hypothesis' testing of their A/B tests, and Finance by running credit fraud detection models.}
+\cventry{2012 -- 15}{Teaching Assistant}{Facultad de Cs. Económicas, UBA}{Buenos Aires}{}{I taught ``Statistics II'', with Prof. Silvia Vietri, Ph.D..}
 
-\section{Selected Academic Experience}
+\cventry{2012 -- 17}{Mathematical Olympiad Coach}{Colegio Boston, Escuela Intl. New Model y Colegio Bayard}{Buenos Aires}{}{Middle \& High School levels.}
 
-\cventry{H2 2021}{External Professor}{Fac. de Ingeniería, Fac. de Cs. Exactas, UBA}{Argentina}{}{I taught ``Machine Learning in Graphs'' for the masters' degree on Data Mining program. We provided longtime R users with an in-depth first course on Python for graph data science. We recorded lectures for asynchronous watching and led synchronous classes with heavy emphasis on practice. All of the material is publicly available on \href{https://youtube.com/playlist?list=PL1WsZAYeCpYUA-k5Ry5O803GpipEnoFQk}{\color{blue}{YouTube}} and \href{https://github.com/fcen-amateur/aa-en-grafos}{\color{blue}{GitHub}}, and covers `networkx', `igraph' and `neo4j', as well as the scientific python stack.}
+\cventry{2006 -- 16}{Tutor privado en Matemática, Física y Química}{}{Buenos Aires}{}{ High School and Undergraduate levels.}
 
-\cventry{2012 -- 2017}{Junior Mathematical Olympiad Coach}{Various schools}{Buenos Aires, Argentina}{}{}
+\pagebreak{}
 
+\section{Academic Record}
 
+\cventry{2017 -- 21}{MSc in Mathematical Statistics}{Instituto del Cálculo, FCEyN, UBA}{}{}{GPA 10.0}
 
-\cventry{2006 -- 2016}{Private tutor}{}{Buenos Aires, Agentina}{}{I taught Mathematics, Physics and Chemistry for elementary to undergraduate-level students.}
+\cventry{Thesis}{Fermat Distance in Kernel Density Estimators}{}{}{in progress}{ I propose to train a KDE classifier with a data-learned distance
+- Fermat's Distance - instead of the customary euclidean distance
+in order to learn not only the sample density, but also its geometry
+(i.e. its supporting Riemmannian manifold). I evaluate the classifier
+against related algorithms such as Naive Bayes, and state-of-the art
+techniques such as GBTs and NNs. Director: Pablo Groisman, Ph.D. }
 
+\cventry{2009 -- 14}{Licenciatura (\textasciitilde MSc) en Economía}{Facultad de Cs. Económicas, UBA}{}{}{GPA 8.94\emph{. }I graduated \emph{magna cum laude} as class valedictorian.}
 
-
-\cventry{2012 -- 2015}{Teaching Assistant}{Facultad de Cs. Económicas; Universidad de Buenos Aires}{Argentina}{}{I taught ``Statistics II'', a senior-year class on Hypothesis Testing and Generalized Linear Models.}
-
-
-
-\section{Education}
-\cventry{2017 -- 2021}{MSc in Statistics}{Facultad de Ciencias Exactas y Naturales - UBA}{}{}{GPA: 10.0 (10.0 scale). My thesis (in progress, due July 2022) uses the \emph{Fermat distance}, a graph-based approach to distance estimation on $d$-dimensional manifolds embedded in $\mathbb{R}^D\ (d\ll D)$ to produce a kernel density estimation on the manifold, which can then be used for classification tasks.}
-\cventry{2009 -- 2014}{Licenciatura en Econom\'ia (BA + MA in Economics)}{Facultad de Cs. Económicas - UBA}{}{}{GPA: 8.94 (10.0 scale). Graduated \emph{magna cum laude}, as valedictorian of my class. My masters' thesis, \emph{The Limits of Electoral Predictability}, is publicly available on GitHub (\href{https://github.com/capitantoto/tesis_mesis/blob/master/ruby/programa.rb}{\color{blue}{code}} and \href{https://github.com/capitantoto/tesis_mesis/blob/master/texes/tesis.pdf}{\color{blue}{essay}}).}
-
+\cventry{Thesis}{The limits of electoral predictability}{}{}{}{Using open data from 2013 legislative elections, I Usando datos
+abiertos de las elecciones legislativas nacionales del 2013, primero
+estimé el mínimo error posible en la predicción del resultado del
+comicio, en función del tamaño muestral; luego, analicé la veracidad
+de afirmaciones periodísticas contemporáneas. Públicamente disponible
+en GitHub {[}\href{https://github.com/capitantoto/tesis_mesis}{link}{]}.
+Director: Silvia Vietri, Ph.D. Grade: 10.0. }
 
 \section{Languages}
 
-\begin{minipage}{\maincolumnwidth}
-  \begin{multicols}{2}
-    \cvlanguage{Spanish}{Native speaker}{}
-    \cvlanguage{French}{Advanced}{}
+\cvlistdoubleitem{Spanish - Native }{French - Advanced}
 
-    \columnbreak
+\cvlistdoubleitem{English - Bilingual\emph{\scriptsize{} CPE (CEFR C2), 2008. Grade:
+A}}{Portuguese - Advanced}
 
+\section{Computer Skills}
 
-    \cvlanguage{English}{Bilingual {\scriptsize \emph{CPE (CEFR C2), 2008. Grade: A}}}{}
-    \cvlanguage{Portuguese}{Advanced}{}
+\cvitem{Fluid}{Python (incl. scientific stack) , SQL, R, Unix OSs, Git, AWS, R,
+Tableau}
 
-  \end{multicols}
-\end{minipage}
+\cvitem{Functional}{Airflow, Jenkins, GCP, JavaScript, HTML/CSS, Ruby, MATLAB, \LaTeX ,
+Pentaho}
 
+\section{Other things I've Done and Like}
 
-\section{Courses}
+\cvlistitem{At \href{https://www.youtube.com/watch?v=tGC1mRJ7DQU&list=PLGVZCDnMOq0o52l-2QTCAbnXeMdNoSh7h&index=13&t=801s&pp=iAQB}{PyData 2019}
+I presented ``Optimal Bidding: a dual approach'' from the earlier
+in the year AdKDD conference to the local community.}
 
-\begin{minipage}{\maincolumnwidth}
-  \begin{multicols}{2}
-    \cvlanguage{AWS}{\href{https://www.aws.training/Transcript/CompletionCertificateHtml?transcriptid=a7vdggmA406jSwdQN6YTjA2}{\color{blue}{Architecting on AWS}}}{}
+\cvlistitem{\href{https://github.com/fcen-amateur}{fcen-amateur} is an open
+GitHub organization in which I share solved exams and practices from
+every course I've given or taken at FCEyN, fostering programming practices
+in the academic community.}
 
-    \columnbreak
+\cvlistitem{pydatajson, a library for managing \href{https://ckan.org/}{CKAN}
+metadata, is part of the Inter-American Development Bank ``Code for
+Development'' FOSS program. }
 
+\cvlistitem{I really enjoyed \href{https://www.coursera.org/account/accomplishments/certificate/5BJS2WRBAMWB}{Machine Learning},
+from Stanford at Coursera, teaching to code fundamental machine learning
+algorithms from scratch.}
 
-    \cvlanguage{Coursera}{\href{https://www.coursera.org/account/accomplishments/verify/5BJS2WRBAMWB}{\color{blue}{Machine Learning}}, with Andrew Nguyen}{}
-
-  \end{multicols}
-\end{minipage}
-
-% \section{Interests}
-
-%\cvitem{Science Olympiads}{I participated in several Science Olympiads throughout high school. I obtained three silver medals in the National Chemistry Olympiad (2006-2008), as well as a 2nd place in the National Mathematic Olympiad (2005), and silver medals in the "Olimpiada Matematica Rioplatense" (2006) and "Olimpiada Matematica del Cono Sur" (2007)}
-% \cvitem{Machine Learning}{I completed Stanford's ``Machine Learning'' course by Andrew Nguyen on Coursera, about contemporary machine learning techniques. [\href{https://www.coursera.org/account/accomplishments/certificate/5BJS2WRBAMWB}{{\color{blue}{link to certificate}}}]}
-
-
-
-% \cvitem{Science Olympiads}{I participated throughout high school in Mathematical and Chemistry Olympiads, consistently obtaining top finishes at national (chemistry) and international (mathematics) events.}
-
-
-
-%\cvitem{Intellectual Property}{I gave a talk entitled \emph{Reflections on the Epistemology of Intellectual Property}, analyzing the effects that IP rights have on the development of art, culture, science and technology. Presented at the XVIII ``Jornadas de Epistemología de las Ciencias Económicas'', Universidad de Buenos Aires, 2012.}
-
-%
-
-%\cvitem{Personal}{In my spare time, I binge on second hand books, spend the nights cooking and eating with my girlfriend Victoria or play the guitar in the park while Molly & Nina, our dogs, run merrily around.}
-
+\cvlistitem{Mathematical and Chemistry olympiads were my favorite K-12 activity.
+I got international awards in the former, and national ones in the
+latter. }
 \end{document}
