@@ -259,9 +259,9 @@ Buenos Aires
 
 \end_inset
 
-Our team at Muun is responsible for curbing fraud-related operating expenses
- without damaging the UX for our BTC wallet's hundreds of thousands of legitimat
-e users.
+Our team is responsible for curbing fraud-related operating expenses without
+ damaging the UX for our BTC wallet's hundreds of thousands of legitimate
+ users.
  As a scientist, I am in charge of detecting common fraud patterns, devising
  product strategies to mitigate them, and deploying them to production in
  collaboration with engineers.
@@ -411,7 +411,7 @@ I assisted in the development of the income optimization engine for our
 \begin_inset CommandInset href
 LatexCommand href
 name "2019 KDD"
-target "https://www.adkdd.org/Papers/Optimal-bidding%3A-a-dual-approach/2019"
+target "https://www.adkdd.org/papers/optimal-bidding%3A-a-dual-approach/2019"
 literal "false"
 
 \end_inset
@@ -550,7 +550,7 @@ Academia (est.
 status open
 
 \begin_layout Plain Layout
-2023 – 26 
+2023 – 25
 \end_layout
 
 \end_inset
@@ -586,7 +586,7 @@ Buenos Aires
 
 \end_inset
 
-As TA for the Statistics area of the institute, so far I've taught 
+As TA for the Statistics department, I've taught 
 \begin_inset Quotes eld
 \end_inset
 
@@ -594,7 +594,7 @@ Intro to Statistics and Data Science
 \begin_inset Quotes erd
 \end_inset
 
- as well as 
+ (4th year) and 
 \begin_inset Quotes eld
 \end_inset
 
@@ -602,7 +602,7 @@ Data Laboratory
 \begin_inset Quotes erd
 \end_inset
 
- (resp., 4th and 1st year undergraduate courses).
+ (1st year).
 \end_layout
 
 \begin_layout Entry
@@ -790,12 +790,13 @@ Buenos Aires
 \end_inset
 
 
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
-\begin_inset Newpage pagebreak
-\end_inset
-
 Academic Record
 \end_layout
 
@@ -868,6 +869,16 @@ I propose to train a KDE classifier with a data-learned distance - Fermat's
  its supporting Riemmannian manifold).
  I evaluate the classifier against related algorithms such as Naive Bayes,
  and state-of-the art techniques such as GBTs and NNs.
+ Publicly available in GitHub [
+\begin_inset CommandInset href
+LatexCommand href
+name "link"
+target "https://github.com/capitantoto/tesis_mesis"
+literal "false"
+
+\end_inset
+
+].
  Director: Pablo Groisman, Ph.D.
  
 \end_layout
@@ -887,7 +898,11 @@ status open
 status open
 
 \begin_layout Plain Layout
-Licenciatura (~MSc) en Economía
+Licenciatura (
+\begin_inset Formula $\sim$
+\end_inset
+
+MSc) en Economía
 \end_layout
 
 \end_inset
@@ -935,12 +950,12 @@ The limits of electoral predictability
 
 \end_inset
 
-Using open data from 2013 legislative elections, I Usando datos abiertos
- de las elecciones legislativas nacionales del 2013, primero estimé el mínimo
- error posible en la predicción del resultado del comicio, en función del
- tamaño muestral; luego, analicé la veracidad de afirmaciones periodísticas
- contemporáneas.
- Públicamente disponible en GitHub [
+Using open data from 2013 legislative elections, I first did a simulation
+ study to estimate the minimum possible error in predicting the election's
+ final result.
+ In light oif the results, I then assessed the credibility of several public
+ opinion polls published right before the voting day.
+ Publicly available in GitHub [
 \begin_inset CommandInset href
 LatexCommand href
 name "link"
@@ -998,13 +1013,13 @@ Computer Skills
 status open
 
 \begin_layout Plain Layout
-Fluid
+Languages
 \end_layout
 
 \end_inset
 
 Python (incl.
- scientific stack) , SQL, R, Unix OSs, Git, AWS, R, Tableau
+ scientific stack), SQL, R, Unix Scripting, Ruby
 \end_layout
 
 \begin_layout Item
@@ -1012,17 +1027,49 @@ Python (incl.
 status open
 
 \begin_layout Plain Layout
-Functional
+Data
 \end_layout
 
 \end_inset
 
-Airflow, Jenkins, GCP, JavaScript, HTML/CSS, Ruby, MATLAB, \SpecialChar LaTeX
-, Pentaho
+RDBMS (PostgreSQL), Tableau, PowerBI, Plotly, Prefect, Airflow, Pentaho
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+DevOps
+\end_layout
+
+\end_inset
+
+Major cloud providers (AWS, Azure & GCP), containerization, basic CI/CD
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Other
+\end_layout
+
+\end_inset
+
+Working knowledge of HTML/CSS, Ruby, MATLAB, \SpecialChar LaTeX
+, Typst
 \end_layout
 
 \begin_layout Section
 Other things I've Done and Like
+\end_layout
+
+\begin_layout ListItem
+In my spare time, I investigate the use of agentic AI tooling to improve
+ my productivity, by building development workflows to leverage my secondary
+ skills through PR-style codebase changes and MCP-based actions.
 \end_layout
 
 \begin_layout ListItem
@@ -1043,7 +1090,17 @@ Optimal Bidding: a dual approach
 \begin_inset Quotes erd
 \end_inset
 
- from the earlier in the year AdKDD conference to the local community.
+ to the local community, premirered earlier in the year by a teammate at
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "AdKDD 2019"
+target "https://www.adkdd.org/papers/optimal-bidding%3A-a-dual-approach/2019"
+literal "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout ListItem
@@ -1055,9 +1112,9 @@ literal "false"
 
 \end_inset
 
- is an open GitHub organization in which I share solved exams and practices
- from every course I've given or taken at FCEyN, fostering programming practices
- in the academic community.
+ is an open GitHub organization in which I share solved exams, lectures
+ & study giudes from every course I've taken or given at FCEyN, fostering
+ programming practices in the academic community.
 \end_layout
 
 \begin_layout ListItem
@@ -1082,7 +1139,7 @@ literal "false"
 \begin_inset Quotes eld
 \end_inset
 
-https://code.iadb.org/en/tools/pydatajson
+
 \begin_inset CommandInset href
 LatexCommand href
 name "Code for Development"
