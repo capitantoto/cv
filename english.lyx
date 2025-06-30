@@ -211,7 +211,109 @@ blue
 \end_layout
 
 \begin_layout Section
-Industry Experience
+Selected Experience
+\end_layout
+
+\begin_layout Subsection
+Industry (est.
+ 2013)
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2024 – 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Scientist, Anti-Fraud Team
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Muun Wallet
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Buenos Aires
+\end_layout
+
+\end_inset
+
+Our team at Muun is responsible for curbing fraud-related operating expenses
+ without damaging the UX for our BTC wallet's hundreds of thousands of legitimat
+e users.
+ As a scientist, I am in charge of detecting common fraud patterns, devising
+ product strategies to mitigate them, and deploying them to production in
+ collaboration with engineers.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2023 – 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Freelance ML/AI Consulting
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Borlandux
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Remote
+\end_layout
+
+\end_inset
+
+I started my own one-man consulting shop, delivering end-to-end ML solutions
+ for companies facing tough statistical challenges without a dedicated in-house
+ team.
+ Projects include a profit-optimization strategy for the largest horseracing
+ betting syndicate in LATAM , and a labor time prediction model for a regional
+ frozen goods logistics company in the USA.
+ 
 \end_layout
 
 \begin_layout Entry
@@ -370,6 +472,22 @@ Our team implemented an end-to-end business intelligence system to integrate
  OKRs within the system.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+These are 
+\begin_inset Quotes eld
+\end_inset
+
+commented out entries
+\begin_inset Quotes erd
+\end_inset
+
+ jsut in case they are needed later on.
+\end_layout
+
 \begin_layout Entry
 \begin_inset Argument 1
 status open
@@ -417,8 +535,14 @@ I automated all operative reports for Marketing and Logistics.
  on our members' past purchase history.
 \end_layout
 
-\begin_layout Section
-Teaching Experience
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Academia (est.
+ 2006)
 \end_layout
 
 \begin_layout Entry
@@ -426,11 +550,67 @@ Teaching Experience
 status open
 
 \begin_layout Plain Layout
-\begin_inset Formula $2^{\text{nd}}$
+2023 – 26 
+\end_layout
+
 \end_inset
 
- sem.
- 2021
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Teching Assistant, 1st Class
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Instituto del Cálculo, Facultad de Cs.
+ Exactas y Naturales (FCEyN), UBA
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Buenos Aires
+\end_layout
+
+\end_inset
+
+As TA for the Statistics area of the institute, so far I've taught 
+\begin_inset Quotes eld
+\end_inset
+
+Intro to Statistics and Data Science
+\begin_inset Quotes erd
+\end_inset
+
+ as well as 
+\begin_inset Quotes eld
+\end_inset
+
+Data Laboratory
+\begin_inset Quotes erd
+\end_inset
+
+ (resp., 4th and 1st year undergraduate courses).
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2021 H2
 \end_layout
 
 \end_inset
@@ -450,8 +630,8 @@ External Professor
 status open
 
 \begin_layout Plain Layout
-Facultad de Cs.
- Exactas y Naturales, Facultad de Ingeniería, UBA
+FCEyN, Fac.
+ de Ingeniería, UBA
 \end_layout
 
 \end_inset
@@ -526,7 +706,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Teaching Assistant
+Teaching Assistant, 2nd Class (Statistics II)
 \end_layout
 
 \end_inset
@@ -536,32 +716,14 @@ Teaching Assistant
 status open
 
 \begin_layout Plain Layout
-Facultad de Cs.
+Fac.
+ de Cs.
  Económicas, UBA
 \end_layout
 
 \end_inset
 
 
-\begin_inset Argument 4
-status collapsed
-
-\begin_layout Plain Layout
-Buenos Aires
-\end_layout
-
-\end_inset
-
-I taught 
-\begin_inset Quotes eld
-\end_inset
-
-Statistics II
-\begin_inset Quotes erd
-\end_inset
-
-, with Prof.
- Silvia Vietri, Ph.D..
 \end_layout
 
 \begin_layout Entry
@@ -585,17 +747,6 @@ Mathematical Olympiad Coach
 \end_inset
 
 
-\begin_inset Argument 3
-status open
-
-\begin_layout Plain Layout
-Colegio Boston, Escuela Intl.
- New Model y Colegio Bayard
-\end_layout
-
-\end_inset
-
-
 \begin_inset Argument 4
 status open
 
@@ -605,7 +756,7 @@ Buenos Aires
 
 \end_inset
 
-Middle & High School levels.
+
 \end_layout
 
 \begin_layout Entry
@@ -623,17 +774,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Tutor privado en Matemática, Física y Química
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 3
-status collapsed
-
-\begin_layout Plain Layout
-
+Private Tutor (Math, Physics, Chemistry) 
 \end_layout
 
 \end_inset
@@ -648,17 +789,13 @@ Buenos Aires
 
 \end_inset
 
- High School and Undergraduate levels.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
 
 \end_layout
 
 \begin_layout Section
+\begin_inset Newpage pagebreak
+\end_inset
+
 Academic Record
 \end_layout
 
@@ -697,7 +834,7 @@ GPA 10.0
 
 \begin_layout Entry
 \begin_inset Argument 1
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Thesis
@@ -924,7 +1061,15 @@ literal "false"
 \end_layout
 
 \begin_layout ListItem
-pydatajson, a library for managing 
+\begin_inset CommandInset href
+LatexCommand href
+name "pydatajson"
+target "https://github.com/datosgobar/pydatajson"
+literal "false"
+
+\end_inset
+
+, a library for managing 
 \begin_inset CommandInset href
 LatexCommand href
 name "CKAN"
@@ -937,7 +1082,16 @@ literal "false"
 \begin_inset Quotes eld
 \end_inset
 
-Code for Development
+https://code.iadb.org/en/tools/pydatajson
+\begin_inset CommandInset href
+LatexCommand href
+name "Code for Development"
+target "https://code.iadb.org/en/tools/pydatajson"
+literal "false"
+
+\end_inset
+
+
 \begin_inset Quotes erd
 \end_inset
 
