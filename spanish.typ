@@ -1,26 +1,34 @@
-#import "template.typ": *
+#import "@preview/moderner-cv:0.2.1": *
 
-#show: cv.with(lang: "es")
-
-#cv-header(
-  name: [Gonzalo Barrera Borla],
-  address: [Av. Rómulo Naón 2350, C1430EPL, Buenos Aires, Argentina],
-  phone: [+54 9 11 4082 6338],
-  email: "gonzalobb@gmail.com",
-  homepage: [github.com/capitantoto],
-  homepage-url: "https://github.com/capitantoto",
+#show: moderner-cv.with(
+  name: "Gonzalo Barrera Borla",
+  subtitle: [],
+  lang: "es",
+  social: (
+    address: (
+      "location-dot",
+      "https://maps.google.com/?q=Av.+Romulo+Naon+2350,+Buenos+Aires,+Argentina",
+      [Av. Rómulo Naón 2350#linebreak()C1430EPL, Buenos Aires, Argentina],
+    ),
+    phone: "+5491140826338",
+    email: "gonzalobb@gmail.com",
+    github: "capitantoto",
+  ),
+  show-footer: false,
 )
 
-#cv-section[Experiencia Seleccionada]
+#show link: set text(fill: moderncv-blue)
 
-#cv-subsection[Industria (desde 2013)]
+= Experiencia Seleccionada
 
-#cv-entry(
-  [Científico, Equipo Anti-Fraude],
-  dates: [2024 –],
-  org: [Muun Wallet],
-  location: [Buenos Aires],
-  desc: [
+== Industria (desde 2013)
+
+#cv-entry-multiline(
+  date: [2024 --],
+  title: [Científico, Equipo Anti-Fraude],
+  employer: [Muun Wallet],
+  [Buenos Aires],
+  [
     Nuestro equipo es responsable de contener los gastos operativos asociados
     al fraude sin dañar la experiencia de uso de los cientos de miles de
     usuarios legítimos de nuestra billetera de BTC. Como científico, me
@@ -29,13 +37,12 @@
     ingenieros.
   ],
 )
-
-#cv-entry(
-  [Consultoría Freelance en ML/IA],
-  dates: [2023 –],
-  org: [Borlandux],
-  location: [Remoto],
-  desc: [
+#cv-entry-multiline(
+  date: [2023 --],
+  title: [Consultoría Freelance en ML/IA],
+  employer: [Borlandux],
+  [Remoto],
+  [
     Fundé mi propia consultora unipersonal, entregando soluciones de ML de
     punta a punta para empresas que enfrentan desafíos estadísticos difíciles
     sin un equipo interno dedicado. Los proyectos incluyen una estrategia de
@@ -44,13 +51,12 @@
     regional de logística de congelados en EE.UU.
   ],
 )
-
-#cv-entry(
-  [Gerente de Ingeniería, Ciencia de Datos],
-  dates: [2021 – 22],
-  org: [Jampp],
-  location: [Remoto],
-  desc: [
+#cv-entry-multiline(
+  date: [2021 -- 22],
+  title: [Gerente de Ingeniería, Ciencia de Datos],
+  employer: [Jampp],
+  [Remoto],
+  [
     Definí prioridades de desarrollo del equipo junto con la gerencia de
     Producto y Tecnología. Coordiné la migración de estimadores GLM _in-house_
     a LightGBM. Profesionalizamos el equipo, implementando metodologías
@@ -60,13 +66,12 @@
     personas.
   ],
 )
-
-#cv-entry(
-  [Científico de Datos Senior],
-  dates: [2019 – 20],
-  org: [Jampp],
-  location: [Buenos Aires],
-  desc: [
+#cv-entry-multiline(
+  date: [2019 -- 20],
+  title: [Científico de Datos Senior],
+  employer: [Jampp],
+  [Buenos Aires],
+  [
     Asistí en el desarrollo del motor de optimización de ingresos para nuestro
     servicio de Real Time Bidding (RTB). Presentamos los resultados en
     #link("https://www.adkdd.org/papers/optimal-bidding%3A-a-dual-approach/2019")[AdKDD 2019].
@@ -77,13 +82,12 @@
     fuertemente regularizados.
   ],
 )
-
-#cv-entry(
-  [Asesor Experto en Análisis de Datos],
-  dates: [2016 – 19],
-  org: [Jefatura de Gabinete de Ministros],
-  location: [Buenos Aires],
-  desc: [
+#cv-entry-multiline(
+  date: [2016 -- 19],
+  title: [Asesor Experto en Análisis de Datos],
+  employer: [Jefatura de Gabinete de Ministros],
+  [Buenos Aires],
+  [
     Nuestro equipo implementó un sistema integral de _business intelligence_
     que integra información de sistemas clave de la Administración Pública
     Nacional (e.g. Presupuesto, Nómina, Políticas Públicas). Colaboré en la
@@ -95,12 +99,12 @@
 
 // Guardado por si hace falta más adelante:
 /*
-#cv-entry(
-  [Analista de Negocios],
-  dates: [2013 – 16],
-  org: [NASCAR Members Club],
-  location: [Buenos Aires & Charlotte, NC],
-  desc: [
+#cv-entry-multiline(
+  date: [2013 -- 16],
+  title: [Analista de Negocios],
+  employer: [NASCAR Members Club],
+  [Buenos Aires & Charlotte, NC],
+  [
     Automaticé todos los reportes operativos para Marketing y Logística.
     Diseñé y ejecuté un test de hipótesis múltiples para elegir un plan de
     suscripción que minimice la baja de suscriptores. Reduje
@@ -110,67 +114,51 @@
 )
 */
 
-#cv-subsection[Academia (desde 2006)]
+== Academia (desde 2006)
 
-#cv-entry(
-  [Ayudante de Primera],
-  dates: [2023 – 25],
-  org: [Instituto del Cálculo, Facultad de Cs. Exactas y Naturales (FCEyN), UBA],
-  location: [Buenos Aires],
-  desc: [
-    Como ayudante del área de Estadística, dicté "Introducción a la
-    Estadística y Ciencia de Datos" (4to año) y "Laboratorio de Datos"
+#cv-entry-multiline(
+  date: [2023 -- 25],
+  title: [Ayudante de Primera],
+  employer: [Instituto del Cálculo, FCEyN, UBA],
+  [Buenos Aires],
+  [
+    Como ayudante del área de Estadística, dicté «Introducción a la
+    Estadística y Ciencia de Datos» (4to año) y «Laboratorio de Datos»
     (1er año).
   ],
 )
-
-#cv-entry(
-  [Profesor Externo],
-  dates: [2do sem. 2021],
-  org: [FCEyN, Fac. de Ingeniería, UBA],
-  location: [Buenos Aires],
-  note: [Virtual],
-  desc: [
-    Dicté "Aprendizaje Automático en Grafos", junto al Dr. Martín Elías Costa.
+#cv-entry-multiline(
+  date: [2do sem. 2021],
+  title: [Profesor Externo],
+  employer: [FCEyN, Fac. de Ingeniería, UBA],
+  [Buenos Aires (virtual)],
+  [
+    Dicté «Aprendizaje Automático en Grafos», junto al Dr. Martín Elías Costa.
     Clases teóricas disponibles en
     #link("https://youtube.com/playlist?list=PL1WsZAYeCpYUA-k5Ry5O803GpipEnoFQk")[YouTube],
     y guías de ejercicios y material didáctico en
     #link("https://github.com/fcen-amateur/aa-en-grafos")[GitHub].
   ],
 )
-
 #cv-entry(
-  [Ayudante de Segunda (Estadística II)],
-  dates: [2012 – 15],
-  org: [Fac. de Cs. Económicas, UBA],
+  date: [2012 -- 15],
+  title: [Ayudante de Segunda (Estadística II)],
+  employer: [Fac. de Cs. Económicas, UBA],
 )
+#cv-line([2012 -- 17], [*Entrenador de Olimpíadas Matemáticas*, Buenos Aires])
+#cv-line([2006 -- 16], [*Tutor Privado (Matemática, Física y Química)*, Buenos Aires])
+
+= Antecedentes Académicos
 
 #cv-entry(
-  [Entrenador de Olimpíadas Matemáticas],
-  dates: [2012 – 17],
-  location: [Buenos Aires],
-)
-
-#cv-entry(
-  [Tutor Privado (Matemática, Física y Química)],
-  dates: [2006 – 16],
-  location: [Buenos Aires],
-)
-
-#cv-section[Antecedentes Académicos]
-
-#cv-entry(
-  [Maestría en Estadística Matemática],
-  dates: [2017 – 21],
-  org: [Instituto del Cálculo, FCEyN, UBA],
-  desc: [Promedio 10.0],
-)
-
-#cv-entry(
-  [Distancia de Fermat en Estimadores de Densidad por Núcleos],
-  dates: [Tesis],
-  note: [en progreso],
-  desc: [
+  date: [2017 -- 21],
+  title: [Maestría en Estadística Matemática],
+  employer: [Instituto del Cálculo, FCEyN, UBA],
+)[Promedio 10.0]
+#cv-line([Tesis], [
+  *Distancia de Fermat en Estimadores de Densidad por Núcleos* #h(2pt) _(en progreso)_
+  #linebreak()
+  #text(size: 0.9em)[
     Propongo entrenar un clasificador basado en KDEs con una distancia
     aprendida de los datos — la distancia de Fermat — en lugar de la habitual
     distancia euclídea, para aprender no solo la densidad muestral sino
@@ -179,23 +167,17 @@
     estado del arte como GBTs y NNs. Públicamente disponible en
     #link("https://github.com/capitantoto/tesis_mesis")[GitHub].
     Director: Dr. Pablo Groisman.
-  ],
-)
-
+  ]
+])
 #cv-entry(
-  [Licenciatura en Economía],
-  dates: [2009 – 14],
-  org: [Facultad de Cs. Económicas, UBA],
-  desc: [
-    Promedio 8.94. Graduado _magna cum laude_ como mejor promedio de mi
-    camada.
-  ],
-)
-
-#cv-entry(
-  [Los Límites de la Predictabilidad Electoral],
-  dates: [Tesis],
-  desc: [
+  date: [2009 -- 14],
+  title: [Licenciatura en Economía],
+  employer: [Facultad de Cs. Económicas, UBA],
+)[Promedio 8.94. Graduado _magna cum laude_ como mejor promedio de mi camada.]
+#cv-line([Tesis], [
+  *Los Límites de la Predictabilidad Electoral*
+  #linebreak()
+  #text(size: 0.9em)[
     Usando datos abiertos de las elecciones legislativas de 2013, primero
     realicé un estudio de simulación para estimar el mínimo error posible en
     la predicción del resultado del comicio. A la luz de los resultados,
@@ -203,28 +185,24 @@
     publicadas justo antes de la votación. Públicamente disponible en
     #link("https://github.com/capitantoto/tesis_mesis")[GitHub].
     Directora: Dra. Silvia Vietri. Calificación: 10.0.
-  ],
-)
+  ]
+])
 
-#cv-section[Idiomas]
+= Idiomas
 
-#cv-double-item(
-  [Español – Nativo],
-  [Francés – Avanzado],
-)
-#cv-double-item(
-  [Inglés – Bilingüe #text(size: 0.8em, style: "italic")[CPE (CEFR C2), 2008. Calificación: A]],
-  [Portugués – Avanzado],
-)
+#cv-double-item[Español][Nativo][Francés][Avanzado]
+#cv-double-item[Inglés][
+  Bilingüe #text(size: 0.75em, style: "italic")[CPE (CEFR C2), 2008 -- A]
+][Portugués][Avanzado]
 
-#cv-section[Habilidades Informáticas]
+= Habilidades Informáticas
 
-#cv-item([Lenguajes], [Python (incl. _stack_ científico), SQL, R, _scripting_ Unix, Ruby])
-#cv-item([Datos], [RDBMS (PostgreSQL), Tableau, PowerBI, Plotly, Prefect, Airflow, Pentaho])
-#cv-item([DevOps], [Principales nubes (AWS, Azure y GCP), contenedores, CI/CD básico])
-#cv-item([Otros], [Conocimiento funcional de HTML/CSS, MATLAB, LaTeX, Typst])
+#cv-line([Lenguajes], [Python (incl. _stack_ científico), SQL, R, _scripting_ Unix, Ruby])
+#cv-line([Datos], [RDBMS (PostgreSQL), Tableau, PowerBI, Plotly, Prefect, Airflow, Pentaho])
+#cv-line([DevOps], [Principales nubes (AWS, Azure y GCP), contenedores, CI/CD básico])
+#cv-line([Otros], [Conocimiento funcional de HTML/CSS, MATLAB, LaTeX, Typst])
 
-#cv-section[Otras Cosas que Hice (y me Gustan)]
+= Otras Cosas que Hice (y me Gustan)
 
 #cv-list-item[
   En mi tiempo libre, investigo el uso de herramientas de IA agéntica para
@@ -232,35 +210,30 @@
   mis habilidades secundarias mediante cambios de código estilo PR y acciones
   basadas en MCP.
 ]
-
 #cv-list-item[
   En #link("https://www.youtube.com/watch?v=tGC1mRJ7DQU&list=PLGVZCDnMOq0o52l-2QTCAbnXeMdNoSh7h&index=13&t=801s&pp=iAQB")[PyData 2019]
-  presenté "Optimal Bidding: a dual approach" a la comunidad local, estrenada
+  presenté «Optimal Bidding: a dual approach» a la comunidad local, estrenada
   meses antes por un compañero de equipo en
   #link("https://www.adkdd.org/papers/optimal-bidding%3A-a-dual-approach/2019")[AdKDD 2019].
 ]
-
 #cv-list-item[
   Mantengo #link("https://github.com/fcen-amateur")[fcen-amateur], una
   organización abierta en GitHub con prácticas y exámenes resueltos de las
   materias que curso o dicto en la FCEyN, para impulsar la práctica de la
   programación en el ámbito científico-académico.
 ]
-
 #cv-list-item[
   #link("https://github.com/datosgobar/pydatajson")[pydatajson], una librería
   para manipular metadatos de #link("https://ckan.org/")[CKAN], integra el
   programa de FOSS del BID,
   #link("https://code.iadb.org/en/tools/pydatajson")[_Code for Development_].
 ]
-
 #cv-list-item[
   Disfruté mucho
   #link("https://www.coursera.org/account/accomplishments/certificate/5BJS2WRBAMWB")[Machine Learning],
   de Stanford en Coursera, donde se programan desde cero algoritmos
   fundamentales de aprendizaje automático.
 ]
-
 #cv-list-item[
   Las olimpíadas de Matemática y Química fueron mi actividad escolar favorita.
   Obtuve distinciones internacionales en las primeras, y nacionales en las
