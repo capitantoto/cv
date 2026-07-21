@@ -1,0 +1,6 @@
+# Default profile: mirrors the latest CV selection.
+# NASCAR is kept in content but excluded here (it was "commented out"
+# in the previous LyX version, kept just in case).
+exclude:
+  - nascar
+exclude-sections: []
