@@ -4,33 +4,23 @@ Curriculum Vitae de Gonzalo Barrera Borla, written in [Typst](https://typst.app)
 
 ## Layout
 
-- `cv.typ` — entry point; picks language and profile from `--input` flags.
-- `template.typ` — moderncv-inspired styling (header, sections, entries).
-- `content/en.yaml`, `content/es.yaml` — all CV content, one file per language.
-  Text fields are Typst markup, so links and `_emphasis_` work. Every
-  entry/item carries a stable `id`, identical across languages.
-- `profiles/*.yaml` — which entries make it into the PDF. A profile lists
-  entry `id`s to `exclude` (and optionally whole `exclude-sections`), so you
-  can tailor the CV per job application without touching the content files.
+- `english.typ`, `spanish.typ` — the CV content, one plain Typst file per
+  language, written with the helpers from `template.typ`.
+- `template.typ` — moderncv-inspired styling (`cv-header`, `cv-section`,
+  `cv-entry`, `cv-item`, …).
 
 ## Building
 
 Requires the `typst` CLI.
 
 ```sh
-make                 # english.pdf + spanish.pdf, default profile
-make PROFILE=full    # include every entry (e.g. NASCAR-era work)
-make watch-es        # live preview (preview.pdf) while editing
-```
-
-Or directly:
-
-```sh
-typst compile --input lang=en --input profile=default cv.typ english.pdf
+make                  # english.pdf + spanish.pdf
+make watch-english    # live-reload while editing
 ```
 
 ## Tailoring for a job
 
-Copy `profiles/default.yaml` to `profiles/<job>.yaml`, tweak the `exclude`
-list, and run `make PROFILE=<job>`. Adding an entry means adding it (with the
-same `id`) to both `content/en.yaml` and `content/es.yaml`.
+Comment out (`/* … */` or `//`) the entries you don't need, or copy
+`english.typ` to `english-<job>.typ` and prune — `make english-<job>.pdf`
+just works. Some entries (e.g. NASCAR) are already kept commented out in the
+source as spares.
