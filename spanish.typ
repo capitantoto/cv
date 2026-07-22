@@ -2,7 +2,7 @@
 
 #show: moderner-cv.with(
   name: "Gonzalo Barrera Borla",
-  subtitle: [],
+  subtitle: [#text(size: 10pt)[#fa-icon("github") #link("https://github.com/capitantoto")[capitantoto] #h(8pt) #fa-icon("linkedin") #link("https://www.linkedin.com/in/gonzalo-barrera-borla-4a6b3711")[in/gonzalo-barrera-borla]]],
   lang: "es",
   social: (
     address: (
@@ -10,10 +10,7 @@
       "https://maps.google.com/?q=Buenos+Aires,+Argentina",
       [Buenos Aires, Argentina (UTC-3)],
     ),
-    phone: "+5491140826338",
     email: "gonzalobb@gmail.com",
-    github: "capitantoto",
-    linkedin: "gonzalo-barrera-borla-4a6b3711",
   ),
   show-footer: false,
   margin: (top: 7mm, bottom: 7mm, left: 15mm, right: 15mm),
