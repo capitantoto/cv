@@ -1,8 +1,12 @@
+TYPST ?= typst
+
 all: english.pdf spanish.pdf
 
-%.pdf: %.tex
-	pdflatex $<
+%.pdf: %.typ
+	$(TYPST) compile --font-path fonts $< $@
 
+# Live-reload while editing, e.g.: make watch-english
+watch-%:
+	$(TYPST) watch --font-path fonts $*.typ
 
-clean:
-	rm -f *.pdf *.aux *.log *.out
+.PHONY: all watch-%
