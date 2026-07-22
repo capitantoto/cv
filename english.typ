@@ -2,94 +2,89 @@
 
 #show: moderner-cv.with(
   name: "Gonzalo Barrera Borla",
-  subtitle: [],
+  subtitle: [Curriculum Vitae],
   lang: "en",
   social: (
     address: (
       "location-dot",
-      "https://maps.google.com/?q=Av.+Romulo+Naon+2350,+Buenos+Aires,+Argentina",
-      [Av. Rómulo Naón 2350#linebreak()C1430EPL, Buenos Aires, Argentina],
+      "https://maps.google.com/?q=Buenos+Aires,+Argentina",
+      [Buenos Aires, Argentina (UTC-3)],
     ),
-    phone: "+5491140826338",
     email: "gonzalobb@gmail.com",
     github: "capitantoto",
+    linkedin: "gonzalo-barrera-borla-4a6b3711"
   ),
   show-footer: false,
+  margin: (top: 12mm, bottom: 7mm, left: 15mm, right: 15mm),
 )
 
 #show link: set text(fill: moderncv-blue)
+#set text(size: 10pt)
+#set par(leading: 0.56em)
+#set table(inset: (x: 5pt, y: 2pt))
 
-= Selected Experience
+// Tighter section headings: thinner rule, smaller type, less vertical padding.
+#show heading.where(level: 1): it => {
+  set block(above: 0.9em, below: 0.3em)
+  table(
+    columns: (1fr, 5fr),
+    stroke: none,
+    align: horizon,
+    box(fill: moderncv-blue, width: 100%, height: 0.14em),
+    text(fill: moderncv-blue, size: 12.5pt, weight: "regular", it.body),
+  )
+}
 
-== Industry (est. 2013)
+= Experience
 
 #cv-entry-multiline(
-  date: [2024 --],
-  title: [Scientist, Anti-Fraud Team],
+  date: [Sep 2025 --],
+  title: [Data Scientist & ML Engineer (first data hire)],
+  employer: [Sitch],
+  [via Borlandux LLC],
+  [At Sitch — a matchmaking startup replacing swiping with curated candidate lists — we used LLMs liberally, including a matchmaking chatbot I helped build, then cut them back to where they paid: I replaced LLM-only affinity scoring with chat-NLP extraction, GBT match-probability models and greedy b-matching, cutting costs from >10K USD/mo in OpenAI fees to a few bare-metal VMs, holding human-curated match quality, while scaling from 3K to 30K MAU; I remain its sole maintainer on an hourly consulting basis.],
+)
+#cv-entry-multiline(
+  date: [Aug 2024 -- \ Aug 2025],
+  title: [Data Scientist, Anti-Fraud Team],
   employer: [Muun Wallet],
-  [Buenos Aires],
-  [
-    Our team is responsible for curbing fraud-related operating expenses
-    without damaging the UX for our BTC wallet's hundreds of thousands of
-    legitimate users. As a scientist, I am in charge of detecting common fraud
-    patterns, devising product strategies to mitigate them, and deploying them
-    to production in collaboration with engineers.
-  ],
+  [via Borlandux LLC],
+  [Muun, a self-custodial BTC & Lightning wallet with an exchange-grade UX, micro-lends to users throughout their journey; our team managed the resulting counterparty risk across a global, high-risk userbase while keeping false positives near zero. Real-time incongruity detection plus ad-hoc, on-chain and Lightning contracts drove $approx 2$ BTC/mo of micro-fraud to near zero -- over 200K USD/mo then.],
 )
 #cv-entry-multiline(
-  date: [2023 --],
-  title: [Freelance ML/AI Consulting],
-  employer: [Borlandux],
-  [Remote],
-  [
-    I started my own one-man consulting shop, delivering end-to-end ML
-    solutions for companies facing tough statistical challenges without a
-    dedicated in-house team. Projects include a profit-optimization strategy
-    for the largest horseracing betting syndicate in LATAM, and a labor time
-    prediction model for a regional frozen goods logistics company in the USA.
-  ],
+  date: [Jun 2023 -- \ Jan 2024],
+  title: [Head of Data Science],
+  employer: [Move 37],
+  [via Borlandux LLC],
+  [Led quantitative R&D (team of 4) for a pari-mutuel horse-racing syndicate across LATAM and the USA. I upgraded bet sizing from single-wager fractional Kelly to joint Kelly over correlated wagers, replaced independent-marginal sampling with estimated joint probability distributions for exotic bets. We scaled volume over 2× at stable margins — several US tracks turned EV-positive after takeout — while adding trifectas and superfectas, and expanding to Brazil and Uruguay.],
 )
 #cv-entry-multiline(
-  date: [2021 -- 22],
+  date: [Jan 2023 --],
+  title: [Owner & Principal Consultant],
+  employer: [Borlandux LLC],
+  [remote],
+  [My single-member ML/statistics consultancy: full-time embedded roles (above) plus shorter engagements. Selected projects: an order fulfillment-time prediction service integrated with the ERP of a US cold-storage warehousing provider (CSW); and a vendor-decoupling roadmap for Unilever USA's freight invoice payment operation (about USD 1B/yr over 500K+ invoices).],
+)
+#cv-entry-multiline(
+  date: [Jan 2021 -- \ Sep 2022],
   title: [Engineering Manager, Data Science],
   employer: [Jampp],
-  [Remote],
-  [
-    I defined development priorities for my team alongside Tech and Product
-    managers. I coordinated the migration from in-house GLM estimators to
-    LightGBM. We professionalized the team by implementing agile
-    methodologies, documenting internal libraries and setting reproducibility
-    standards for our analyses. I wrote the first career ladder, updated the
-    technical exams and grew the team from 7 to 12 people.
-  ],
+  [remote],
+  [I led the re-architecture of the prediction stack from our bespoke online-SGD logreg (one global model, expert-only tuning) to batch LightGBM: minutes-long trainings on millions of samples with no logloss regression, unlocking per-(client, geo) models. I wrote the team's career ladder and grew it to 12 people.],
 )
 #cv-entry-multiline(
-  date: [2019 -- 20],
+  date: [Feb 2019 -- \ Sep 2020],
   title: [Senior Data Scientist],
   employer: [Jampp],
   [Buenos Aires],
-  [
-    I assisted in the development of the income optimization engine for our
-    Real Time Bidding (RTB) service. We presented the results at
-    #link("https://www.adkdd.org/papers/optimal-bidding%3A-a-dual-approach/2019")[AdKDD 2019].
-    Our team was responsible for the system predicting ads' conversion rates
-    (win rate, CTR, CVR). We trained cheaply on several billion observations
-    with an in-house, online SGD algo, and processed 1M+ auctions per second,
-    using strongly regularised GLMs.
-  ],
+  [Our team built the conversion-rate prediction system (win rate, CTR, CVR) behind Jampp's RTB bidder: online-SGD GLMs trained on billions of observations, scoring 1M+ auctions per second. The income-optimization engine I co-developed (#link("https://www.adkdd.org/papers/optimal-bidding%3A-a-dual-approach/2019")["Optimal Bidding: a dual approach"], AdKDD 2019; presented at #link("https://www.youtube.com/watch?v=tGC1mRJ7DQU&list=PLGVZCDnMOq0o52l-2QTCAbnXeMdNoSh7h&index=13&t=801s&pp=iAQB")[PyData BA 2019]) replaced 100+ per-client bidding problems with a single global objective on Jampp's bottom line. Annualized revenue grew ≈4×, from ≈USD 15M to 60M+ over my tenure.],
 )
 #cv-entry-multiline(
-  date: [2016 -- 19],
+  date: [Aug 2016 -- \ Jan 2019],
   title: [Expert Data Analysis Advisor],
   employer: [Jefatura de Gabinete de Ministros],
   [Buenos Aires],
-  [
-    Our team implemented an end-to-end business intelligence system to
-    integrate data from key systems of the National Public Administration
-    (e.g. Budget, Payroll, Public Policies). I worked on the data model
-    definition and developed ETLs, apart from advising the Justice and Economy
-    ministries on how to define their OKRs within the system.
-  ],
+  [I built the data model and ETLs of a BI system integrating National Public Administration systems: payroll for $approx$ 400K civil and military employees, the $approx$ USD 156B national budget with monthly execution status, and the administration's flagship-project board. I co-wrote #link("https://github.com/datosgobar/pydatajson")[pydatajson], a CKAN-metadata library part of the IADB's #link("https://code.iadb.org/en/tools/pydatajson")["Code for Development"] FOSS program.],
 )
 
 // Kept just in case it is needed later on:
@@ -99,136 +94,38 @@
   title: [Business Analyst],
   employer: [NASCAR Members Club],
   [Buenos Aires & Charlotte, NC],
-  [
-    I automated all operative reports for Marketing and Logistics. I designed
-    and executed a multiple hypothesis test in order to choose a subscription
-    plan to minimise subscribers' churn. I reduced credit card chargebacks
-    significantly with a logistic model trained on our members' past purchase
-    history.
-  ],
+  [I automated all operative reports for Marketing and Logistics. I designed and executed a multiple hypothesis test in order to choose a subscription plan to minimise subscribers' churn. I reduced credit card chargebacks significantly with a logistic model trained on our members' past purchase history.],
 )
 */
 
-== Academia (est. 2006)
+= Teaching
 
-#cv-entry-multiline(
+#cv-entry(
   date: [2023 -- 25],
   title: [Teaching Assistant, 1st Class],
-  employer: [Instituto del Cálculo, FCEyN, UBA],
-  [Buenos Aires],
-  [
-    As TA for the Statistics department, I've taught "Intro to Statistics and
-    Data Science" (4th year) and "Data Laboratory" (1st year).
-  ],
-)
-#cv-entry-multiline(
+  employer: [Instituto del Cálculo, UBA],
+)["Intro to Statistics and Data Science" and "Data Laboratory"; materials at #link("https://github.com/fcen-amateur")[fcen-amateur]]
+#cv-entry(
   date: [2021 H2],
   title: [External Professor],
-  employer: [FCEyN, Fac. de Ingeniería, UBA],
-  [Buenos Aires (virtual)],
-  [
-    I taught "Machine Learning in Graphs", with Prof. Martín Elías Costa,
-    Ph.D. Video lectures available at
-    #link("https://youtube.com/playlist?list=PL1WsZAYeCpYUA-k5Ry5O803GpipEnoFQk")[YouTube],
-    exercise guides and didactic materials at
-    #link("https://github.com/fcen-amateur/aa-en-grafos")[GitHub].
-  ],
-)
-#cv-entry(
-  date: [2012 -- 15],
-  title: [Teaching Assistant, 2nd Class (Statistics II)],
-  employer: [Fac. de Cs. Económicas, UBA],
-)
-#cv-line([2012 -- 17], [*Mathematical Olympiad Coach*, Buenos Aires])
-#cv-line([2006 -- 16], [*Private Tutor (Math, Physics, Chemistry)*, Buenos Aires])
+  employer: [FCEyN],
+)["Machine Learning in Graphs" — #link("https://youtube.com/playlist?list=PL1WsZAYeCpYUA-k5Ry5O803GpipEnoFQk")[lectures], #link("https://github.com/fcen-amateur/aa-en-grafos")[materials]]
+#cv-line([2012 -- 17], [*Mathematical Olympiad Coach* — former international olympiad awardee])
 
-= Academic Record
+= Education, Languages & Stack
 
 #cv-entry(
   date: [2017 -- 21],
   title: [MSc in Mathematical Statistics],
-  employer: [Instituto del Cálculo, FCEyN, UBA],
-)[GPA 10.0]
-#cv-line([Thesis], [
-  *Fermat Distance in Kernel Density Estimators* #h(2pt) _(in progress)_
-  #linebreak()
-  #text(size: 0.9em)[
-    I propose to train a KDE classifier with a data-learned distance —
-    Fermat's Distance — instead of the customary Euclidean distance, in order
-    to learn not only the sample density, but also its geometry (i.e. its
-    supporting Riemannian manifold). I evaluate the classifier against related
-    algorithms such as Naive Bayes, and state-of-the-art techniques such as
-    GBTs and NNs. Publicly available at
-    #link("https://github.com/capitantoto/tesis_mesis")[GitHub].
-    Director: Pablo Groisman, Ph.D.
-  ]
-])
+  employer: [Instituto del Cálculo, UBA],
+)[GPA 10.0; #link("https://github.com/capitantoto/fermat")[thesis] presented, defense pending (est. Sep 2026)]
 #cv-entry(
   date: [2009 -- 14],
   title: [Licenciatura (≈ MSc) in Economics],
   employer: [Facultad de Cs. Económicas, UBA],
-)[GPA 8.94. I graduated _magna cum laude_ as class valedictorian.]
-#cv-line([Thesis], [
-  *The Limits of Electoral Predictability*
-  #linebreak()
-  #text(size: 0.9em)[
-    Using open data from the 2013 legislative elections, I first ran a
-    simulation study to estimate the minimum possible error in predicting the
-    election's final result. In light of the results, I then assessed the
-    credibility of several public opinion polls published right before voting
-    day. Publicly available at
-    #link("https://github.com/capitantoto/tesis_mesis")[GitHub].
-    Director: Silvia Vietri, Ph.D. Grade: 10.0.
-  ]
-])
+  [GPA 8.94, _magna cum laude_, class valedictorian. #link("https://github.com/capitantoto/tesis_mesis")[Thesis] (grade 10.0) available online.],
+)
 
-= Languages
+#cv-line([Languages], [Spanish (native), English (C2), French & Portuguese (advanced)])
 
-#cv-double-item[Spanish][Native][French][Advanced]
-#cv-double-item[English][
-  Bilingual #text(size: 0.75em, style: "italic")[CPE (CEFR C2), 2008 -- A]
-][Portuguese][Advanced]
-
-= Computer Skills
-
-#cv-line([Languages], [Python (incl. scientific stack), SQL, R, Unix scripting, Ruby])
-#cv-line([Data], [RDBMS (PostgreSQL), Tableau, PowerBI, Plotly, Prefect, Airflow, Pentaho])
-#cv-line([DevOps], [Major cloud providers (AWS, Azure & GCP), containerization, basic CI/CD])
-#cv-line([Other], [Working knowledge of HTML/CSS, MATLAB, LaTeX, Typst])
-
-= Other Things I've Done and Like
-
-#cv-list-item[
-  In my spare time, I investigate the use of agentic AI tooling to improve my
-  productivity, by building development workflows to leverage my secondary
-  skills through PR-style codebase changes and MCP-based actions.
-]
-#cv-list-item[
-  At #link("https://www.youtube.com/watch?v=tGC1mRJ7DQU&list=PLGVZCDnMOq0o52l-2QTCAbnXeMdNoSh7h&index=13&t=801s&pp=iAQB")[PyData 2019]
-  I presented "Optimal Bidding: a dual approach" to the local community,
-  premiered earlier in the year by a teammate at
-  #link("https://www.adkdd.org/papers/optimal-bidding%3A-a-dual-approach/2019")[AdKDD 2019].
-]
-#cv-list-item[
-  #link("https://github.com/fcen-amateur")[fcen-amateur] is an open GitHub
-  organization in which I share solved exams, lectures & study guides from
-  every course I've taken or given at FCEyN, fostering programming practices
-  in the academic community.
-]
-#cv-list-item[
-  #link("https://github.com/datosgobar/pydatajson")[pydatajson], a library for
-  managing #link("https://ckan.org/")[CKAN] metadata, is part of the
-  Inter-American Development Bank
-  #link("https://code.iadb.org/en/tools/pydatajson")["Code for Development"]
-  FOSS program.
-]
-#cv-list-item[
-  I really enjoyed
-  #link("https://www.coursera.org/account/accomplishments/certificate/5BJS2WRBAMWB")[Machine Learning],
-  from Stanford at Coursera, teaching to code fundamental machine learning
-  algorithms from scratch.
-]
-#cv-list-item[
-  Mathematical and Chemistry olympiads were my favorite K-12 activity. I got
-  international awards in the former, and national ones in the latter.
-]
+#cv-line([Stack], [Fluent in Python (scientific stack), R, SQL and Unix shell; built and ran full systems on AWS, Azure and GCP with Terraform and Docker. Also: Stata, Tableau, Pentaho, Ruby/Rails, Django, PostgreSQL/MySQL, MATLAB, Java.])
