@@ -3,6 +3,8 @@
 Kept in sync with `english.typ` / `spanish.typ` (Round 2 content, July 2026).
 LinkedIn supports secondary language profiles (Profile → Add profile in another language): use EN as primary, then ES / PT / FR as secondaries.
 Dates: LinkedIn requires months — Sitch: Sep 2025; Muun: Aug 2024 – Aug 2025; Move 37: Jul 2024 – Jul 2025; Borlandux: pick your LLC's founding month, 2023.
+Profile URL: linkedin.com/in/gonzalo-barrera-borla-4a6b3711 (also add github.com/capitantoto in the Contact info / Featured section).
+The "📬 Currently taking on…" line at the end of each About is the CTA — pair it with Open to Work (recruiters-only), roles: Machine Learning Engineer, Data Scientist, Staff Data Scientist.
 
 ---
 
@@ -16,13 +18,15 @@ Data Scientist & ML Engineer | Owner @ Borlandux LLC (ML & statistics consulting
 
 I run Borlandux, my single-member ML & statistics consultancy, and take on full-capacity embedded roles when the problem is worth it: first data hire at a matchmaking startup (cut matching compute costs by >95% while scaling users 10×), anti-fraud scientist at a self-custodial BTC wallet (drove USD 200K+/mo of micro-fraud to essentially zero), head of data science at a horse-racing betting syndicate (joint-Kelly bet sizing, >2× volume at stable margins). Earlier: data science management at Jampp (adtech; annualized revenue grew ≈4×, from ≈USD 15M to 60M+, during my tenure) and BI for Argentina's national government.
 
-I like problems where statistics meets the P&L: risk, matching, pricing, optimization. MSc in Mathematical Statistics (GPA 10/10), economist by training, and I teach statistics at Universidad de Buenos Aires on the side. Working languages: Spanish, English, French, Portuguese.
+I like problems where statistics meets the P&L: risk, matching, pricing, optimization. I've used LLMs daily for years — including building my own orchestration tooling for code and data work — and my favorite skill is deciding where they pay: at Sitch we shipped an LLM-powered matchmaking chatbot, then cut LLM spend by >95% where cheaper models matched its quality. MSc in Mathematical Statistics (GPA 10/10), economist by training, and I teach statistics at Universidad de Buenos Aires on the side. Working languages: Spanish, English, French, Portuguese.
+
+📬 Currently taking on: embedded IC/staff roles (contract or contract-to-hire) on US hours, plus scoped consulting projects, both remote from UTC-3 (full US East Coast overlap) — gonzalobb@gmail.com.
 
 ### Experience
 
 **Data Scientist & ML Engineer (first data hire)** — Sitch · Contract (via Borlandux LLC) · Sep 2025 – Present · Remote
 
-- Replaced an LLM-only matchmaking system with chat-NLP affinity extraction, GBT match-probability models and greedy b-matching, cutting compute costs by >95% — from tens of thousands of USD/month in OpenAI fees to a few bare-metal VMs.
+- Helped build Sitch's LLM-powered matchmaking chatbot, then led the cutback of LLMs to where they paid: replaced LLM-only affinity scoring with chat-NLP extraction, GBT match-probability models and greedy b-matching, cutting compute costs by >95% — from tens of thousands of USD/month in OpenAI fees to a few bare-metal VMs.
 - Matched the quality of human-curated feeds (40% one-sided, ~10% mutual approval) while scaling from 3K to 30K users.
 - Currently the platform's sole maintainer, on an hourly consulting basis.
 
@@ -86,13 +90,15 @@ Científico de Datos e Ingeniero de ML | Dueño @ Borlandux LLC (consultoría en
 
 Dirijo Borlandux, mi consultora unipersonal de ML y estadística, y tomo roles embebidos a tiempo completo cuando el problema lo amerita: primer perfil de datos en una startup de matchmaking (bajé >95% los costos de cómputo mientras los usuarios se multiplicaban por 10), científico anti-fraude en una billetera BTC de autocustodia (llevé a cero más de USD 200K/mes de micro-fraude), head of data science en un sindicato de apuestas hípicas (Kelly conjunto para el sizing, >2× de volumen con márgenes estables). Antes: gestión de ciencia de datos en Jampp (adtech; la facturación anualizada creció ≈4×, de ≈USD 15M a 60M+, durante mi paso) y BI para el Estado nacional argentino.
 
-Me gustan los problemas donde la estadística toca el P&L: riesgo, matching, pricing, optimización. Magíster en Estadística Matemática (promedio 10/10), economista de formación, y doy clases de estadística en la UBA. Idiomas: español, inglés, francés, portugués.
+Me gustan los problemas donde la estadística toca el P&L: riesgo, matching, pricing, optimización. Uso LLMs a diario hace años — incluso construí mi propio tooling de orquestación para trabajo de código y datos — y mi habilidad favorita es decidir dónde rinden: en Sitch lanzamos un chatbot de matchmaking basado en LLMs, y luego recortamos el gasto en LLMs más de 95% donde modelos más baratos igualaban su calidad. Magíster en Estadística Matemática (promedio 10/10), economista de formación, y doy clases de estadística en la UBA. Idiomas: español, inglés, francés, portugués.
+
+📬 Actualmente tomo: roles embebidos IC/staff (contrato o contract-to-hire) en horario de EE.UU., además de proyectos de consultoría acotados, siempre remoto desde UTC-3 (solapamiento total con la costa este) — gonzalobb@gmail.com.
 
 ### Experiencia
 
 **Científico de Datos e Ingeniero de ML (primer perfil de datos)** — Sitch · Contrato (vía Borlandux LLC) · Sep 2025 – actualidad · Remoto
 
-- Reemplacé un sistema de matchmaking basado solo en LLMs por extracción de afinidades vía NLP, modelos GBT de probabilidad de match y b-matching goloso, bajando los costos de cómputo más de 95%: de decenas de miles de USD/mes en OpenAI a unas pocas VMs bare-metal.
+- Ayudé a construir el chatbot de matchmaking basado en LLMs de Sitch, y luego lideré el recorte de LLMs a donde rendían: reemplacé el scoring de afinidades basado solo en LLMs por extracción vía NLP, modelos GBT de probabilidad de match y b-matching goloso, bajando los costos de cómputo más de 95%: de decenas de miles de USD/mes en OpenAI a unas pocas VMs bare-metal.
 - Igualé la calidad de los feeds curados a mano (40% de aprobación unilateral, ~10% mutua) escalando de 3K a 30K usuarios.
 - Actualmente soy el único mantenedor de la plataforma, como consultor por hora.
 
@@ -152,13 +158,15 @@ Cientista de Dados e Engenheiro de ML | Dono @ Borlandux LLC (consultoria em ML 
 
 Dirijo a Borlandux, minha consultoria individual de ML e estatística, e assumo funções integradas em tempo integral quando o problema vale a pena: primeiro contratado de dados numa startup de matchmaking (reduzi os custos de computação em >95% enquanto os usuários cresciam 10×), cientista antifraude numa carteira BTC de autocustódia (levei a zero mais de USD 200K/mês de microfraude), head of data science num sindicato de apostas de turfe (Kelly conjunto para dimensionamento, >2× de volume com margens estáveis). Antes: gestão de ciência de dados na Jampp (adtech; a receita anualizada cresceu ≈4×, de ≈USD 15M para 60M+, durante minha passagem) e BI para o governo nacional argentino.
 
-Gosto de problemas em que a estatística encontra o P&L: risco, matching, pricing, otimização. Mestre em Estatística Matemática (média 10/10), economista de formação, e ensino estatística na Universidad de Buenos Aires. Idiomas de trabalho: espanhol, inglês, francês, português.
+Gosto de problemas em que a estatística encontra o P&L: risco, matching, pricing, otimização. Uso LLMs diariamente há anos — inclusive construí meu próprio tooling de orquestração para trabalho de código e dados — e minha habilidade favorita é decidir onde eles pagam: na Sitch lançamos um chatbot de matchmaking baseado em LLMs, e depois cortamos o gasto com LLMs em mais de 95% onde modelos mais baratos igualavam sua qualidade. Mestre em Estatística Matemática (média 10/10), economista de formação, e ensino estatística na Universidad de Buenos Aires. Idiomas de trabalho: espanhol, inglês, francês, português.
+
+📬 Atualmente aceito: funções embedded IC/staff (contrato ou contract-to-hire) em horário dos EUA, além de projetos de consultoria delimitados, sempre remoto de UTC-3 (sobreposição total com a costa leste) — gonzalobb@gmail.com.
 
 ### Experiência
 
 **Cientista de Dados e Engenheiro de ML (primeiro contratado de dados)** — Sitch · Contrato (via Borlandux LLC) · Set 2025 – presente · Remoto
 
-- Substituí um sistema de matchmaking baseado apenas em LLMs por extração de afinidades via NLP, modelos GBT de probabilidade de match e b-matching guloso, cortando os custos de computação em mais de 95%: de dezenas de milhares de USD/mês em OpenAI para algumas VMs bare-metal.
+- Ajudei a construir o chatbot de matchmaking baseado em LLMs da Sitch, e depois liderei o corte de LLMs para onde eles pagavam: substituí o scoring de afinidades baseado apenas em LLMs por extração via NLP, modelos GBT de probabilidade de match e b-matching guloso, cortando os custos de computação em mais de 95%: de dezenas de milhares de USD/mês em OpenAI para algumas VMs bare-metal.
 - Igualei a qualidade dos feeds com curadoria humana (40% de aprovação unilateral, ~10% mútua) escalando de 3K para 30K usuários.
 - Atualmente sou o único mantenedor da plataforma, como consultor por hora.
 
@@ -218,13 +226,15 @@ Data Scientist & Ingénieur ML | Propriétaire @ Borlandux LLC (conseil en ML et
 
 Je dirige Borlandux, mon cabinet de conseil individuel en ML et statistique, et j'accepte des missions intégrées à temps plein quand le problème en vaut la peine : premier recrutement data d'une startup de matchmaking (coûts de calcul réduits de >95 % pendant que les utilisateurs étaient multipliés par 10), scientifique anti-fraude d'un portefeuille BTC en auto-conservation (plus de 200 K USD/mois de micro-fraude ramenés à zéro), head of data science d'un syndicat de paris hippiques (dimensionnement de Kelly conjoint, volume plus que doublé à marges stables). Auparavant : management de la data science chez Jampp (adtech ; le chiffre d'affaires annualisé a été multiplié par ≈4, de ≈15 M à 60 M+ USD, pendant mon passage) et BI pour l'État national argentin.
 
-J'aime les problèmes où la statistique rencontre le compte de résultat : risque, matching, pricing, optimisation. Master en Statistique Mathématique (moyenne 10/10), économiste de formation, et j'enseigne la statistique à l'Universidad de Buenos Aires. Langues de travail : espagnol, anglais, français, portugais.
+J'aime les problèmes où la statistique rencontre le compte de résultat : risque, matching, pricing, optimisation. J'utilise les LLMs quotidiennement depuis des années — j'ai même construit mon propre outillage d'orchestration pour le travail de code et de données — et ma compétence préférée est de décider où ils rapportent : chez Sitch, nous avons lancé un chatbot de matchmaking à base de LLMs, puis réduit les dépenses LLM de plus de 95 % là où des modèles moins chers égalaient leur qualité. Master en Statistique Mathématique (moyenne 10/10), économiste de formation, et j'enseigne la statistique à l'Universidad de Buenos Aires. Langues de travail : espagnol, anglais, français, portugais.
+
+📬 J'accepte actuellement : des missions intégrées IC/staff (contrat ou contract-to-hire) aux horaires américains, ainsi que des projets de conseil délimités, toujours à distance depuis UTC-3 (chevauchement complet avec la côte Est) — gonzalobb@gmail.com.
 
 ### Expérience
 
 **Data Scientist & Ingénieur ML (premier recrutement data)** — Sitch · Contrat (via Borlandux LLC) · Sept. 2025 – aujourd'hui · À distance
 
-- Remplacement d'un système de matchmaking fondé uniquement sur des LLMs par une extraction d'affinités via NLP, des modèles GBT de probabilité de match et un b-matching glouton : coûts de calcul réduits de plus de 95 %, de dizaines de milliers d'USD/mois en frais OpenAI à quelques VMs bare-metal.
+- Co-construction du chatbot de matchmaking à base de LLMs de Sitch, puis pilotage de la réduction des LLMs là où ils rapportaient : remplacement du scoring d'affinités uniquement LLM par une extraction NLP, des modèles GBT de probabilité de match et un b-matching glouton — coûts de calcul réduits de plus de 95 %, de dizaines de milliers d'USD/mois en frais OpenAI à quelques VMs bare-metal.
 - Qualité des feeds à curation humaine égalée (40 % d'approbation unilatérale, ~10 % mutuelle) en passant de 3 K à 30 K utilisateurs.
 - Actuellement seul mainteneur de la plateforme, en tant que consultant à l'heure.
 

@@ -7,20 +7,34 @@
   social: (
     address: (
       "location-dot",
-      "https://maps.google.com/?q=Av.+Romulo+Naon+2350,+Buenos+Aires,+Argentina",
-      [Av. Rómulo Naón 2350#linebreak()C1430EPL, Buenos Aires, Argentina],
+      "https://maps.google.com/?q=Buenos+Aires,+Argentina",
+      [Buenos Aires, Argentina (UTC-3)],
     ),
     phone: "+5491140826338",
     email: "gonzalobb@gmail.com",
     github: "capitantoto",
+    linkedin: "gonzalo-barrera-borla-4a6b3711",
   ),
   show-footer: false,
   margin: (top: 7mm, bottom: 7mm, left: 15mm, right: 15mm),
 )
 
 #show link: set text(fill: moderncv-blue)
-#set text(size: 9.7pt)
-#set par(leading: 0.58em)
+#set text(size: 10pt)
+#set par(leading: 0.56em)
+#set table(inset: (x: 5pt, y: 2pt))
+
+// Tighter section headings: thinner rule, smaller type, less vertical padding.
+#show heading.where(level: 1): it => {
+  set block(above: 0.55em, below: 0.2em)
+  table(
+    columns: (1fr, 5fr),
+    stroke: none,
+    align: horizon,
+    box(fill: moderncv-blue, width: 100%, height: 0.14em),
+    text(fill: moderncv-blue, size: 12.5pt, weight: "regular", it.body),
+  )
+}
 
 = Experience
 
@@ -29,14 +43,14 @@
   title: [Data Scientist & ML Engineer (first data hire)],
   employer: [Sitch],
   [via Borlandux LLC],
-  [At Sitch — a matchmaking startup replacing swiping with curated candidate lists — I replaced the LLM-only matchmaking pipeline with chat-NLP affinity extraction, GBT match-probability models and greedy b-matching, cutting costs from tens of thousands of USD/mo in OpenAI fees to a handful of bare-metal VMs — while holding human-curated match quality (40% one-sided, ≈10% mutual approval) and scaling from 3K to 30K users; I remain its sole maintainer on an hourly consulting basis.],
+  [At Sitch — a matchmaking startup replacing swiping with curated candidate lists — we used LLMs liberally, including a matchmaking chatbot I helped build, then cut them back to where they paid: I replaced LLM-only affinity scoring with chat-NLP extraction, GBT match-probability models and greedy b-matching, cutting costs from tens of thousands of USD/mo in OpenAI fees to a few bare-metal VMs, holding human-curated match quality (40% one-sided, ≈10% mutual approval) while scaling from 3K to 30K users; I remain its sole maintainer on an hourly consulting basis.],
 )
 #cv-entry-multiline(
   date: [2024 -- 25],
   title: [Scientist, Anti-Fraud Team],
   employer: [Muun Wallet],
   [via Borlandux LLC],
-  [Muun, a self-custodial BTC wallet with exchange-grade UX, micro-lends to users at several points of their journey; our team managed the resulting counterparty risk across a global, high-risk userbase while keeping false positives near zero. Real-time incongruity detection plus purpose-built on-chain and Lightning contracts drove ≈2 BTC/mo of micro-fraud to essentially zero — over USD 200K/mo at the time.],
+  [Muun, a self-custodial BTC wallet with exchange-grade UX, micro-lends to users throughout their journey; our team managed the resulting counterparty risk across a global, high-risk userbase while keeping false positives near zero. Real-time incongruity detection plus purpose-built on-chain and Lightning contracts drove ≈2 BTC/mo of micro-fraud to essentially zero — over USD 200K/mo at the time.],
 )
 #cv-entry-multiline(
   date: [2024 -- 25],
@@ -91,15 +105,15 @@
   date: [2023 -- 25],
   title: [Teaching Assistant, 1st Class],
   employer: [Instituto del Cálculo, UBA],
-)["Intro to Statistics and Data Science" and "Data Laboratory"; materials open-sourced at #link("https://github.com/fcen-amateur")[fcen-amateur]]
+)["Intro to Statistics and Data Science" and "Data Laboratory"; materials at #link("https://github.com/fcen-amateur")[fcen-amateur]]
 #cv-entry(
   date: [2021 H2],
   title: [External Professor],
-  employer: [FCEyN & Fac. de Ingeniería, UBA],
+  employer: [FCEyN & FIUBA],
 )["Machine Learning in Graphs" — #link("https://youtube.com/playlist?list=PL1WsZAYeCpYUA-k5Ry5O803GpipEnoFQk")[lectures], #link("https://github.com/fcen-amateur/aa-en-grafos")[materials]]
 #cv-line([2012 -- 17], [*Mathematical Olympiad Coach* — former international olympiad awardee])
 
-= Education & Languages
+= Education, Languages & Stack
 
 #cv-entry(
   date: [2017 -- 21],
@@ -113,3 +127,5 @@
   [GPA 8.94, _magna cum laude_, class valedictorian],
   [Spanish (native), English (C2), French & Portuguese (advanced)],
 )
+
+#cv-line([Stack], text(size: 0.92em)[Fluent in Python (scientific stack), R, SQL and Unix shell; built and ran full systems on AWS, Azure and GCP with Terraform and Docker. Also: Stata, Tableau, Pentaho, Ruby/Rails, Django, PostgreSQL/MySQL, MATLAB, Java.])
