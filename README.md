@@ -5,7 +5,7 @@ One-page CV, in English and Spanish:
 - **[english.pdf](english.pdf)**
 - **[spanish.pdf](spanish.pdf)**
 
-Data scientist & ML engineer — statistics that meet the P&L: fraud, matching, pricing, optimization. Details in the PDFs; say hi at [gonzalobb@gmail.com](mailto:gonzalobb@gmail.com) or [LinkedIn](https://www.linkedin.com/in/gonzalo-barrera-borla-4a6b3711).
+Data scientist & ML engineer — statistics that meet the P&L: fraud, matching, pricing, optimization. Details in the PDFs; say hi at [gonzalobb@gmail.com](mailto:gonzalobb@gmail.com) or [LinkedIn](https://www.linkedin.com/in/gonzabb).
 
 ## Building
 
