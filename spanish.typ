@@ -12,7 +12,7 @@
     ),
     email: "gonzalobb@gmail.com",
     github: "capitantoto",
-    linkedin: "gonzalo-barrera-borla-4a6b3711"
+    linkedin: "gonzabb"
   ),
   show-footer: false,
   margin: (top: 12mm, bottom: 7mm, left: 15mm, right: 15mm),
